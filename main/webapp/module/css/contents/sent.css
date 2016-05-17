@@ -1,0 +1,168 @@
+/* 
+contents/sent
+main id : #contents_sent
+*/
+
+#contents_sent{
+	
+}
+#contents_sent{
+	
+}
+#contents_sent .timeline .avatar
+{
+	left:-60px;
+}
+#contents_sent .timeline .avatar i{
+	position:absolute;
+	top:40px;
+	right:-5px;
+	font-size:18px;
+}
+#contents_sent .timeline .avatar span.label
+{
+	display:block;
+	text-align:center;	
+	width:805;
+	margin:auto;
+	margin-top:10px;
+	font-size:11px;
+}
+#contents_sent .timeline .avatar img
+{
+	max-height:50px;
+	max-width:50px;		
+}
+#contents_sent .section {
+	
+}
+.contents_sent_page #aoFrm-content-top #contentTop_contentsList 
+{
+	display:block;	
+}
+
+@media only screen and (max-width:480px) {	
+	
+	#contents_sent .timeline .avatar
+	{
+		left:10px;
+	}
+	#contents_sent .chat-box.timeline .arrow-box-left .name {
+    	float: left;
+    	margin-left: 67px;
+	}
+}
+@media only screen and (max-width:12010px)
+{
+	.contents_sent_page #aoFrm-content-top #contentTop_contentsList 
+	{		
+		margin-right:auto;
+	}	
+}
+@media only screen and (max-width:767px)
+{
+	.contents_sent_page #aoFrm-content-top #contentTop_contentsList 
+	{		
+		float:none;
+		display:inline-block;
+	}	
+}
+
+#contents_sent .arrow-box-left .content{
+	position: relative;		
+}
+
+#contents_sent .edit{
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;	
+}
+
+
+#contents_sent .createForm .account {
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+}
+
+#contents_sent .createForm .account .imgBox .channel-icon {
+    bottom: 0;
+    color: #3B5998;
+    position: absolute;
+    right: 3px;
+}
+
+
+#contents_sent .createForm .account .imgBox {
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    padding: 4px 0;
+}
+
+#contents_sent .createForm{
+	padding-left: 100px;	
+}
+
+#contents_sent .createForm .area_01{
+	margin-bottom: 0;	
+}
+
+#contents_sent .time-group {
+    border: 1px solid #E2E2E2;
+    min-height: 251px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#contents_sent .time-group .wrapGroup {
+    padding: 15px;
+}
+
+#contents_sent .modal-body {
+    overflow-y: visible;
+}
+
+#contents_sent .date_txt {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+#contents_sent .body-sent.open-scheduled{
+	display: block;
+}
+
+#contents_sent .body-sent.close-scheduled{
+	display: none;
+}
+
+#contents_sent .delete {
+    bottom: 11px;
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+}
+
+#contents_sent .nodata {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    opacity: 0.7;
+    float: none!important;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#contents_sent .nodata h4 {
+    color: #FFFFFF;
+}
+
+#contents_sent .arrow-box-left {
+    background: none repeat scroll 0 0 #FFF;
+    box-shadow: none;
+    position: relative;
+}
+#contents_sent .arrow-box-left .content {
+    border-top: medium none;
+}

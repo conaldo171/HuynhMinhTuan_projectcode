@@ -1,0 +1,188 @@
+/* 
+Analysis/facebook 
+main id : #analysis_dashboard
+*/
+#analysis_dashboard .menu-left h5{
+	margin-top: 0;	
+}
+#analysis_dashboard .demographic{
+	text-align:center;
+}
+#analysis_dashboard .demographic .chartBox h5{
+	position:absolute;
+	background:#FBFBFB;
+	bottom:-10px;
+	left:0;
+	padding:0 0 15px 0;
+	width:100%;
+	text-align:center;	
+	font-size:16px;
+}
+#analysis_dashboard .demographic .chartBox{
+	position:relative;	
+}
+#analysis_dashboard .demographic .chartBox p{	
+	position:absolute;
+	top:38%;
+	width:100%;	
+	left:0;
+	text-align:center;
+}
+#analysis_dashboard .demographic .chartBox i{
+	font-size:60px !important;		
+}
+
+@media only screen and (max-width:767px)
+{
+	#analysis_dashboard .demographic .chartBox{
+		border-bottom:dotted 1px #EBEBEB;
+	}
+	#analysis_dashboard .demographic .chartBox:last-child{
+		border-bottom:none;
+	}
+	#analysis_dashboard .demographic .chartBox p{			
+		top:38%;		
+	}
+	#analysis_dashboard .demographic .chartBox i{
+		font-size:60px;		
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1300px)
+{
+	#analysis_dashboard .demographic .chartBox p{			
+		top:34%;		
+	}
+	#analysis_dashboard .demographic .chartBox i{
+		font-size:50px;		
+	}
+}
+#analysis_dashboard .itemLoading{
+	position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;		
+}
+
+#analysis_dashboard .block-title{
+	clear: both;
+	overflow: hidden;	
+}
+
+#analysis_dashboard .block-title .left-title{
+	float: left;
+	font-size: 15px;	
+}
+
+#analysis_dashboard .block-title .left-title span{
+	margin-left: 5px;	
+}
+
+#analysis_dashboard .block-title .right-title{
+	float: right;	
+}
+
+#analysis_dashboard .block-title .right-title .box-toolbar{
+	margin:  0;	
+}
+
+#analysis_dashboard .block .block-title{
+	padding-bottom: 10px;
+}
+
+#analysis_dashboard .block-title .right-title .box-toolbar li{
+	list-style: none;	
+}
+
+#analysis_dashboard .block-title .right-title .box-toolbar li .input-prepend{
+	height:  27px!important;
+	line-height: 27px!important;
+	margin-bottom: 0;	
+}
+
+#analysis_dashboard .block-title .right-title .box-toolbar li .input-prepend i{
+	font-size:  15px;
+	line-height: 17px!important;	
+}
+
+#analysis_dashboard .block-title .right-title .box-toolbar li .input-prepend input{
+	min-width: 200px;
+	padding-right: 2px;	
+}
+
+#analysis_dashboard .list-action{
+	margin-left: 0;	
+}
+
+#analysis_dashboard .list-action li{
+	border-top: 1px solid #CCCCCC;
+	list-style: none;
+	padding: 7px;
+	position: relative;	
+}
+
+#analysis_dashboard .list-action li span{
+	position: absolute;
+	right: 15px;
+	top: 8px;	
+}
+
+
+#analysis_dashboard .table td {
+    text-align: center;
+}
+
+#analysis_dashboard .content-top .table td.story{
+	text-align: left;	
+}
+
+#analysis_dashboard .block-demographic .chartBox p {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 37%;
+    width: 100%;
+}
+
+#analysis_dashboard .block-demographic .chartBox h5 {
+    background: none repeat scroll 0 0 #FBFBFB;
+    bottom: -10px;
+    font-size: 14px;
+    left: 0;
+    padding: 0 0 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#analysis_dashboard .block-demographic .chartBox i {
+    font-size: 60px !important;
+}
+
+#analysis_dashboard .menu-left ul{
+	margin-left: 0;
+}
+
+#analysis_dashboard .menu-left li{
+	border-top: 1px solid #CCCCCC;
+    list-style-type: none;
+    padding: 7px;	
+}
+
+#analysis_dashboard .menu-left li a{
+	
+}
+
+#analysis_dashboard .menu-left li a:hover,
+#analysis_dashboard .menu-left li a.active{
+	color: #3B5998;
+}
+
+.analysis_dashboard_page #aoFrm-content{
+	padding: 0 15px;
+}
+
+#analysis_dashboard .block .box-header .title i{
+	color: #3B5998;
+	margin-right: 5px;		
+}

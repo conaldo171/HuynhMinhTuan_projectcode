@@ -1,0 +1,6 @@
+01. Date 	: data-mask=date
+02. Number 	: data-mask=number
+03. Tax		: data-mask=tax
+04. Phone	: data-mask=phone
+05. Currency: data-mask=currency
+06. 

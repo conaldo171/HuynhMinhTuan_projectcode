@@ -1,0 +1,67 @@
+#comment_create .block-title .right-title .box-toolbar li .input-prepend input {
+    min-width: 200px;
+    padding-right: 2px;
+}
+#comment_create input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0;
+    box-shadow: none;
+}
+#comment_create .block-title .right-title .box-toolbar li {
+    display: inline-block;
+    list-style: none outside none;
+    margin-left: 10px;
+}
+#comment_create .block-title .right-title .box-toolbar {
+    margin: 0;
+}
+
+#comment_create .block-title .right-title {
+    float: right;
+    margin-bottom: 10px;
+}
+#comment_create .block-title .right-title .box-toolbar li .input-prepend {
+    height: 27px !important;
+    line-height: 27px !important;
+    margin-bottom: 0;
+}
+#comment_create .block-title .right-title .box-toolbar li .input-prepend i {
+    font-size: 15px;
+    line-height: 17px !important;
+}
+#comment_create .create_comment{
+width:150px;
+float:left;
+}
+#comment_create .download_sample{
+float:left;
+}
+
+/****************/
+
+#comment_create .time-group {
+    border: 1px solid #E2E2E2;
+    min-height: 251px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#comment_create .time-group .wrapGroup {
+    padding: 15px;
+}
+
+#comment_create .body-schedule.open-scheduled {
+    display: block;
+}
+#comment_create .body-schedule.close-scheduled {
+    display: none;
+}
+#comment_create .modal-body {
+    overflow-y: visible;
+}
+
+
+#comment_create .date_txt {
+    font-size: 15px;
+    margin: 10px 0;
+}

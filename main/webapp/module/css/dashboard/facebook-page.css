@@ -1,0 +1,330 @@
+/* CSS Document */
+#dashboard_facebook_page .summary .input-append,#dashboard_facebook_page .summary .input-prepend
+{
+	height:27px !important;
+	line-height:27px !important;	
+}
+#dashboard_facebook_page .title i{
+	color: #3B5998;
+}
+#dashboard_facebook_page .section {
+	
+}
+
+#dashboard_facebook_page .summary .box-header .box-toolbar{
+	float: right;	
+}
+
+#dashboard_facebook_page .summary .box-header .box-toolbar li{
+	list-style: none;	
+}
+
+#dashboard_facebook_page .summary .input-append input, #dashboard_facebook_page .summary .input-prepend input {
+    min-width: 200px;
+    padding-right: 2px;
+}
+
+#dashboard_facebook_page .summary .input-append, #dashboard_facebook_page .summary .input-prepend {
+    height: 27px !important;
+    line-height: 27px !important;
+}
+
+#dashboard_facebook_page .summary .input-append .add-on i, #dashboard_facebook_page .summary .input-prepend .add-on i {
+    font-size: 15px;
+    line-height: 17px !important;
+}
+
+#dashboard_facebook_page .summary .block-summary{
+	text-align:  center;
+	padding: 20px 0;
+	width: 17%;	
+}
+
+#dashboard_facebook_page .summary .block-summary i{
+	color: #3B5998;
+	font-size:  50px;
+	display: block;	
+}
+
+#dashboard_facebook_page .summary .block-summary span{
+	display: block;
+	color: #3B5998;
+	text-transform: uppercase;	
+}
+
+#dashboard_facebook_page .summary .block-summary span span{
+	display: inline-block;	
+}
+
+#dashboard_facebook_page .summary .block-summary span.title{
+	font-size: 14px;
+	padding: 5px 0 2px;
+	color: #78808A;
+}
+
+#dashboard_facebook_page .summary .table td{
+	text-align: center;	
+}
+
+#dashboard_facebook_page .summary .table td.story{
+	text-align: left;	
+}
+
+#dashboard_facebook_page .summary .table td.story span.name{
+	font-weight: bold;
+	color: #3B5998;	
+}
+
+#dashboard_facebook_page .itemLoading{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;		
+}
+
+#dashboard_facebook_page .nodata{
+	padding: 10px;
+	color: #FFF;
+	background: #000;
+	position: absolute;
+	top: 40px;
+	left: 30%;
+	opacity: 0.7;
+  	filter:alpha(opacity=60); /* For IE8 and earlier */	
+}
+
+#dashboard_facebook_page .nodata h4{
+	color: #FFF;	
+}
+
+/***********************************/
+
+#dashboard_facebook_page .menu_left {
+    float: left;
+    width: 20%;
+}
+
+#dashboard_facebook_page .menu_left .list-profile{
+	margin-left: 0;	
+}
+
+#dashboard_facebook_page .menu_left #list-profile{
+	margin-left: 0;	
+}
+
+
+#dashboard_facebook_page .menu_left li {
+    border-top: 1px solid #CCCCCC;
+    list-style-type: none;
+    padding: 7px;
+}
+
+#dashboard_facebook_page .menu_left li a:hover,
+#dashboard_facebook_page .menu_left li.active a{
+	color: #3B5998;
+}
+
+
+#dashboard_facebook_page .content_right {
+    position: relative;
+}
+
+#dashboard_facebook_page .content_right .block_content{
+		
+}
+#dashboard_facebook_page .demographic{
+	text-align:center;
+}
+#dashboard_facebook_page .demographic .chartBox h5{
+	position:absolute;
+	background:#FBFBFB;
+	bottom:-10px;
+	left:0;
+	padding:0 0 15px 0;
+	width:100%;
+	text-align:center;	
+
+	font-size:14px;
+}
+#dashboard_facebook_page .demographic .chartBox{
+	position:relative;	
+}
+#dashboard_facebook_page .demographic .chartBox p{	
+	position:absolute;
+	top:37%;
+	width:100%;	
+	left:0;
+	text-align:center;
+}
+#dashboard_facebook_page .demographic .chartBox i{
+	font-size:60px !important;		
+}
+
+#dashboard_facebook_page .block-title{
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 5px;	
+}
+
+#dashboard_facebook_page .block-title .left-title{
+	float: left;
+	padding-top: 7px;
+	font-size: 15px;	
+}
+
+#dashboard_facebook_page .block-title .left-title span{
+	margin-left: 5px;	
+}
+
+#dashboard_facebook_page .block-title .right-title{
+	float: right;	
+}
+
+#dashboard_facebook_page .block-title .right-title .box-toolbar{
+	margin:  0;	
+}
+
+#dashboard_facebook_page .block-title .right-title .box-toolbar li{
+	list-style: none;	
+}
+
+#dashboard_facebook_page .block-title .right-title .box-toolbar li .input-prepend{
+	height:  27px!important;
+	line-height: 27px!important;	
+}
+
+#dashboard_facebook_page .block-title .right-title .box-toolbar li .input-prepend i{
+	font-size:  15px;
+	line-height: 17px!important;	
+}
+
+#dashboard_facebook_page .block-title .right-title .box-toolbar li .input-prepend input{
+	min-width: 200px;
+	padding-right: 2px;	
+}
+
+.dashboard_facebook_page_page #aoFrm-content{
+	padding: 0 15px;	
+}
+#dashboard_facebook_page #twitter_summary .block-summary i{
+	color: #24AEEB;
+	font-size:  50px;
+	display: block;	
+}
+
+#dashboard_facebook_page #twitter_summary .block-summary .number span{
+	display: block;
+	color: #24AEEB;	
+	display:inline;
+}
+#dashboard_facebook_page #twitter_summary  .block-summary span.title{
+	font-size: 14px;
+	padding: 5px 0 2px;
+	color: #78808A;
+}
+
+#dashboard_facebook_page .box-header ul#list-facebook-page{
+	display: block;	
+	margin-left: 0;
+}
+
+#dashboard_facebook_page .box-header ul#list-facebook-page li{
+	cursor: pointer;
+	padding: 5px 12px 5px 12px;
+	float: left;
+	margin:5px; 
+	list-style: none;	
+}
+#dashboard_facebook_page .box-header ul#list-facebook-page li i{	
+	margin-right:5px;
+}
+#dashboard_facebook_page .box-header ul#list-facebook-page li:hover,
+#dashboard_facebook_page .box-header ul#list-facebook-page li.active{
+	background: #888888;
+	color:#FFF;
+	box-shadow:inset 0 0 3px #333;
+	border-radius:4px;
+	text-shadow:0 0 1px #333333;
+}
+#dashboard_facebook_page .box-header ul#list-facebook-page li:hover i,
+#dashboard_facebook_page .box-header ul#list-facebook-page li:hover span,
+#dashboard_facebook_page .box-header ul#list-facebook-page li.active i,
+#dashboard_facebook_page .box-header ul#list-facebook-page li.active span{
+	color:#FFF;
+	text-shadow:0 0 1px #333333;	
+}
+
+#dashboard_facebook_page #age-chart,
+#dashboard_facebook_page #gender-chart,
+#dashboard_facebook_page #fb_status,
+#dashboard_facebook_page #fb_education{
+	width: 215px;	
+}
+
+#dashboard_facebook_page #gender-chart #gender,
+#dashboard_facebook_page #fb_status #status,
+#dashboard_facebook_page #fb_education #education{
+	height: 260px;
+    width: 215px;		
+}
+
+#dashboard_facebook_page #age-chart .chartBox p {
+    top: 34%;
+}
+
+#dashboard_facebook_page #age-chart .chartBox{
+	margin-top: -35px;	
+}
+
+#dashboard_facebook_page #age-chart #age{
+	height: 395px;
+    width: 215px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #dashboard_facebook_page #age-chart #age{
+	height: 348px;	
+	}
+	
+	#dashboard_facebook_page #age-chart .chartBox{
+		margin-top: -7px;	
+	}
+}
+
+@media only screen and (max-width:565px)
+{
+	#dashboard_facebook_page #age-chart,
+	#dashboard_facebook_page #gender-chart
+	{			
+		float:none !important;
+		margin-left:auto !important;
+		margin-right:auto !important;		
+	}	
+}
+
+/************/
+
+#dashboard_facebook_page .summary .block-summary .right{
+	text-align: left;
+	font-size:  18px;
+}
+
+#dashboard_facebook_page .summary .block-summary .right i{
+	font-size: 18px;
+	margin: 5px;
+	float: left;	
+}
+
+#dashboard_facebook_page .summary .block-summary .right .number{
+	color: #000;	
+}
+
+#dashboard_facebook_page .summary .block-summary .right .blue{
+	color: #3B5998;	
+}
+
+#dashboard_facebook_page .summary .block-summary .right .red span,
+#dashboard_facebook_page .summary .block-summary .right .red i{
+	color: #AA433A;
+}	
+ 

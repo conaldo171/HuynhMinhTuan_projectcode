@@ -1,0 +1,73 @@
+.contents_contents_page #aoFrm-content{
+	padding-top: 10px;	
+}
+
+#contents_contents .block-title .right-title{
+	padding-bottom: 20px;
+}
+
+#contents_contents .block-title .right-title .box-toolbar{
+	margin:  0;	
+}
+
+#contents_contents .block .box-header .title i{
+	margin-right: 5px;		
+}
+
+#contents_contents .block .block-title{
+	padding-bottom: 10px;
+	display: block;
+	overflow: hidden;
+}
+
+#contents_contents .block-title .right-title .box-toolbar li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;	
+}
+
+#contents_contents .block-title .right-title .box-toolbar li button{
+	padding: 1px 12px;	
+}
+
+#contents_contents .block-title .right-title .box-toolbar li .input-prepend{
+	height:  27px!important;
+	line-height: 27px!important;
+	margin-bottom: 0;	
+}
+
+#contents_contents .block-title .right-title .box-toolbar li .input-prepend i{
+	font-size:  15px;
+	line-height: 17px!important;	
+}
+
+#contents_contents .block-title .right-title .box-toolbar li .input-prepend input{
+	min-width: 200px;
+	padding-right: 2px;	
+}
+
+#contents_contents .block{
+	clear: both;
+	overflow: hidden;	
+}
+
+#contents_contents .block-channel{
+	cursor: pointer;
+	padding: 5px 12px 5px 12px;
+	float: left;
+	margin:5px; 	
+}
+#contents_contents .block-channel i{	
+	margin-right:5px;
+}
+#contents_contents .block-channel.active{
+	background: #888888;
+	color:#FFF;
+	box-shadow:inset 0 0 3px #333;
+	border-radius:4px;
+	text-shadow:0 0 1px #333333;
+}
+#contents_contents .block-channel.active i{
+	color:#FFF;
+	text-shadow:0 0 1px #333333;	
+}

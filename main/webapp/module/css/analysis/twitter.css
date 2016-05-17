@@ -1,0 +1,367 @@
+/* 
+Analysis/Twitter 
+main id : #analysis_twitter
+*/
+
+#analysis_twitter .title i{
+	color: #24AEEB;
+}
+
+#analysis_twitter .menu-left h5{
+	margin-top: 0;	
+}
+#analysis_twitter .demographic{
+	text-align:center;
+}
+#analysis_twitter .demographic .chartBox h5{
+	position:absolute;
+	background:#FBFBFB;
+	bottom:-10px;
+	left:0;
+	padding:0 0 15px 0;
+	width:100%;
+	text-align:center;	
+	font-size:16px;
+}
+#analysis_twitter .demographic .chartBox{
+	position:relative;	
+}
+#analysis_twitter .demographic .chartBox p{	
+	position:absolute;
+	top:38%;
+	width:100%;	
+	left:0;
+	text-align:center;
+}
+#analysis_twitter .demographic .chartBox i{
+	font-size:60px !important;		
+}
+
+@media only screen and (max-width:767px)
+{
+	#analysis_twitter .demographic .chartBox{
+		border-bottom:dotted 1px #EBEBEB;
+	}
+	#analysis_twitter .demographic .chartBox:last-child{
+		border-bottom:none;
+	}
+	#analysis_twitter .demographic .chartBox p{			
+		top:38%;		
+	}
+	#analysis_twitter .demographic .chartBox i{
+		font-size:60px;		
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1300px)
+{
+	#analysis_twitter .demographic .chartBox p{			
+		top:34%;		
+	}
+	#analysis_twitter .demographic .chartBox i{
+		font-size:50px;		
+	}
+}
+#analysis_twitter .itemLoading{
+	background-position: center 0;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 90%;
+	z-index: 9999;		
+}
+
+#analysis_twitter .block-title{
+	clear: both;
+	margin-bottom: 10px;
+}
+
+#analysis_twitter .block-title .left-title{
+	float: left;
+	font-size: 15px;	
+}
+
+#analysis_twitter .block-title .left-title span{
+	margin-left: 5px;	
+}
+
+#analysis_twitter .block-title .right-title{
+	float: right;	
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar{
+	margin:  0;	
+}
+
+#analysis_twitter .block .block-title{
+	padding-bottom: 10px;
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar li{
+	list-style: none;
+	margin-left: 10px;
+	display: inline-block;	
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar li button{
+	padding: 1px 12px;	
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar li .input-prepend{
+	height:  27px!important;
+	line-height: 27px!important;
+	margin-bottom: 0;	
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar li .input-prepend i{
+	font-size:  15px;
+	line-height: 17px!important;	
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar li .input-prepend input{
+	min-width: 200px;
+	padding-right: 2px;	
+}
+
+#analysis_twitter .list-action{
+	margin-left: 0;	
+}
+
+#analysis_twitter .list-action li{
+	border-top: 1px solid #CCCCCC;
+	list-style: none;
+	padding: 7px;
+	position: relative;	
+}
+
+#analysis_twitter .list-action li span.amount{
+	position: absolute;
+	right: 15px;
+	top: 8px;	
+}
+
+
+#analysis_twitter .table td {
+    text-align: center;
+}
+
+#analysis_twitter .content-top .table td.story{
+	text-align: left;	
+}
+
+#analysis_twitter .block-demographic .chartBox p {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 37%;
+    width: 100%;
+}
+
+#analysis_twitter .block-demographic .chartBox h5 {
+    background: none repeat scroll 0 0 #FBFBFB;
+    bottom: -10px;
+    font-size: 14px;
+    left: 0;
+    padding: 0 0 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+#analysis_twitter .block-demographic .chartBox i {
+    font-size: 60px !important;
+}
+
+#analysis_twitter .menu-left ul{
+	margin-left: 0;
+}
+
+#analysis_twitter .menu-left li{
+	border-top: 1px solid #CCCCCC;
+    list-style-type: none;
+    padding: 7px;	
+}
+
+#analysis_twitter .menu-left li a{
+	
+}
+
+#analysis_twitter .menu-left li a:hover,
+#analysis_twitter .menu-left li.active a{
+	color: #24AEEB;
+}
+
+.analysis_twitter_page #aoFrm-content{
+	padding: 0 15px;
+}
+
+#analysis_twitter .block .box-header .title i{
+	color: #24AEEB;
+	margin-right: 5px;		
+}
+
+#analysis_twitter .action-nav-normal .action-nav-button a:hover,
+#analysis_twitter .action-nav-normal .action-nav-button a.active {
+	background: #24AEEB;
+	color: #FFFFFF;
+}
+
+#analysis_twitter .action-nav-normal .action-nav-button a:hover i,
+#analysis_twitter .action-nav-normal .action-nav-button a.active i{
+	color: #FFFFFF;	
+}
+
+#analysis_twitter .xcharts-line-dotted{
+	
+}
+
+#contents_title,
+#summary_title{
+	text-transform: capitalize;	
+}
+
+#analysis_twitter .box-header ul#list-twitter{
+	display: block;	
+	margin-left: 0;
+}
+
+#analysis_twitter .box-header ul#list-twitter li{
+	cursor: pointer;
+	padding: 5px 12px 5px 12px;
+	float: left;
+	margin:5px; 
+	list-style: none;	
+}
+#analysis_twitter .box-header ul#list-twitter li i{	
+	margin-right:5px;
+}
+#analysis_twitter .box-header ul#list-twitter li:hover,
+#analysis_twitter .box-header ul#list-twitter li.active{
+	background: #888888;
+	color:#FFF;
+	box-shadow:inset 0 0 3px #333;
+	border-radius:4px;
+	text-shadow:0 0 1px #333333;
+}
+#analysis_twitter .box-header ul#list-twitter li:hover i,
+#analysis_twitter .box-header ul#list-twitter li:hover span,
+#analysis_twitter .box-header ul#list-twitter li.active i,
+#analysis_twitter .box-header ul#list-twitter li.active span{
+	color:#FFF;
+	text-shadow:0 0 1px #333333;	
+}
+
+
+#analysis_twitter .block-title .right-title .dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+#analysis_twitter .block-title .right-title .dropdown-menu li {
+    display: block;
+    margin: 0;
+}
+
+
+#analysis_twitter .block-title .right-title .box-toolbar li a.dropdown-toggle {
+    padding: 2px 12px;
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar li a.dropdown-data{
+	background: #eaeaea;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZkZmRmZCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #fdfdfd), color-stop(100%, #eaeaea));
+	background-image: -webkit-linear-gradient(top, #fdfdfd, #eaeaea);
+	background-image: -moz-linear-gradient(top, #fdfdfd, #eaeaea);
+	background-image: -o-linear-gradient(top, #fdfdfd, #eaeaea);
+	background-image: linear-gradient(top, #fdfdfd, #eaeaea);
+	text-shadow: 0 1px white;
+	border: 1px solid #CDCDCD;
+	color: #636363;
+    font-size: 13px;
+   	display: block;
+    padding: 3px 10px;
+    font-weight: 600;
+    -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px	
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar li a.dropdown-data i{
+	margin-left: 5px;	
+}
+
+#popup-question-save .modal-footer{
+	text-align: left;	
+}
+
+#popup-question-save .modal-footer p{
+	margin-bottom: 0;	
+}
+
+#analysis_twitter .list-action li a:hover, #analysis_twitter .list-action li a.active {
+    color: #24AEEB;
+}
+
+
+#analysis_twitter .nodata {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    left: 30%;
+    opacity: 0.7;
+    padding: 10px;
+    position: absolute;
+    top: 40px;
+    width: 270px !important;
+}
+
+#analysis_twitter .nodata h4 {
+    color: #FFFFFF;
+}
+
+
+#analysis_twitter .content_right {
+    position: relative;
+}
+/**********help tooltip*************/
+
+.box-header .help_tooltip{
+	padding-top: 13px;
+	display: block;	
+	float: left;
+	width:auto;
+	cursor: pointer;	
+}
+
+.list-action .help_tooltip{
+	margin-left: 5px;	
+}
+
+.modal_help{
+	top: 30%!important;	
+}
+/*icon tooltip*/
+.tooltip_icon{
+ float: right;
+    margin-right: 9px;
+    margin-top: 11px;
+    cursor:pointer;
+}
+.tooltip_icon_left{
+ float: left;
+    margin-right: 9px;
+    margin-top: 14px;
+    cursor:pointer;
+}
+
+#content_top_table #gbox_top_jqgrid{
+	border-left: none;
+	border-bottom: none;	
+}
+
+#content_top_table .ui-jqgrid tr.ui-row-ltr:nth-child(2n+1){
+	background: #EAEBEF;
+}

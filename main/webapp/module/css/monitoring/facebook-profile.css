@@ -1,0 +1,848 @@
+/* 
+monitoring/facebook 
+main id : #monitoring_facebook_profile
+*/
+
+#monitoring_facebook_profile .tab-pane{
+	padding:15px;
+}
+
+#monitoring_facebook_profile .block-name{
+	cursor: pointer;
+	padding: 5px 12px 5px 12px;
+	float: left;
+	margin:5px;
+	display: block; 	
+}
+#monitoring_facebook_profile .block-name i{	
+	margin-right:5px;
+}
+#monitoring_facebook_profile .block-name.active{
+	background: #888888;
+	color:#FFF;
+	box-shadow:inset 0 0 3px #333;
+	border-radius:4px;
+	text-shadow:0 0 1px #333333;
+}
+#monitoring_facebook_profile .block-name.active i{
+	color:#FFF;
+	text-shadow:0 0 1px #333333;	
+}
+#monitoring_facebook_profile .box-content{
+	padding: 10px;
+	display: block;
+	overflow: hidden;	
+}
+
+#monitoring_facebook_profile .icon-remove{
+	cursor: pointer;
+	padding: 10px;
+	float: right;	
+}
+
+
+#monitoring_facebook_profile .timeline .avatar img{
+	cursor: pointer;
+	max-height: 50px;
+	max-width: 50px;	
+}
+
+#monitoring_facebook_profile .timeline .comment .avatar img{
+	max-height: 40px;
+	max-width: 40px;	
+}
+
+#monitoring_facebook_profile .timeline .avatar{
+	left: -60px;	
+}
+
+#monitoring_facebook_profile .timeline .avatar i{
+	font-size:  18px;
+	position: absolute;
+	right: -5px;
+	top: 40px;		
+}
+
+
+/**********/
+
+#monitoring_facebook_profile .indent{
+	margin-left: 0;
+	margin-left: 0;
+}
+
+#monitoring_facebook_profile .arrow-box-left{
+	background: none repeat scroll 0 0 #FFF;
+	position: relative;
+	box-shadow: none;	
+}
+#monitoring_facebook_profile input{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	font-size: 12px;
+	color: #858585;
+	padding: 0 0 0 5px;
+	border: 1px solid #d7d7d7;
+	display: inline-block;
+	background: #fff;
+	height: 26px	
+}
+#monitoring_facebook_profile .arrow-box-left .content{
+	border-top: none;	
+}
+
+#monitoring_facebook_profile .arrow-box-left .content blockquote{
+	clear: both;
+	border-left: none;
+	padding-left: 0;
+	padding-bottom: 0;
+	border: none;	
+}
+
+#monitoring_facebook_profile .arrow-box-left .block-name{
+	padding-bottom: 5px;
+	padding-right: 0;
+	float: none;
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+
+#monitoring_facebook_profile .arrow-box-left .block-name span.name{
+	color: #3B5998;	
+}
+
+#monitoring_facebook_profile .arrow-box-left .block-name span.timePost{
+	float: right;	
+}
+
+#monitoring_facebook_profile .arrow-box-left .info{
+	background: none;
+	position: relative;	
+	padding: 0 10px 5px;
+	padding-right: 5px;
+	margin-bottom: 0;
+}
+
+#monitoring_facebook_profile .icon-mail-reply {
+    bottom: 8px;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;}
+
+#monitoring_facebook_profile .content_share {
+    bottom: 10px;
+    cursor: pointer;
+    float: left;
+    right: 25px;
+    padding-right: 5px;
+}
+
+#monitoring_facebook_profile .menuLike {
+    bottom: 10px;
+    cursor: pointer;
+    float: left;
+    right: 25px;
+    padding-right: 6px;
+    margin-top: -1px;
+}
+
+#monitoring_facebook_profile .menu_task {
+    cursor: pointer;
+    float: left;
+    right: 25px;
+    margin-top: -1px;
+    padding-right: 5px;
+}
+
+#monitoring_facebook_profile .menu_task .dropdown-menu{
+	left: -8px!important;	
+}
+
+#monitoring_facebook_profile .menuFavorite {
+    bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+}
+
+#monitoring_facebook_profile .menuDelFb{
+	bottom: 10px;
+    cursor: pointer;
+    float: left;
+    margin-top: -1px;
+    padding-right: 10px;
+    right: 45px;	
+}
+
+#monitoring_facebook_profile .menuDel {
+    bottom: 10px;
+    cursor: pointer;
+    position:  absolute;
+    padding-right: 10px;
+    right: 45px;
+}
+
+#monitoring_facebook_profile .account_list li.item {
+    list-style: none outside none;
+    padding: 8px 10px 8px 15px;
+}
+
+
+#monitoring_facebook_profile .block-comment{
+	background: #edeff4;	
+}
+
+
+#monitoring_facebook_profile .guest-comment{
+	position: relative;
+	padding: 5px 10px;
+	border: 1px solid #FFF;	
+}
+
+#monitoring_facebook_profile .guest-comment .info{
+	padding: 0;	
+}
+
+#monitoring_facebook_profile .post_comment .arrow-box-left{
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+
+#monitoring_facebook_profile .guest-comment blockquote{
+	margin: 0;
+	border-left: 0;
+	padding-left: 0;	
+}
+
+#monitoring_facebook_profile .guest-comment blockquote .indent{
+	margin: 0;	
+}
+
+#monitoring_facebook_profile .guest-comment .delComment{
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	cursor: pointer;	
+}
+
+#monitoring_facebook_profile .guest-comment .likeComment{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;	
+}
+
+#monitoring_facebook_profile .guest-comment .content{
+	padding: 0!important;
+	border: none;	
+}
+
+#monitoring_facebook_profile .guest-comment .content blockqquote{
+	margin: 0!important;	
+}
+
+#monitoring_facebook_profile .guest-comment .arrow-box-left{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 50px;	
+	background: none repeat scroll 0 0 #EDEFF4;
+}
+
+#monitoring_facebook_profile .guest-comment .arrow-box-left:after, 
+#monitoring_facebook_profile .guest-comment .arrow-box-left:before{
+	border: none;
+}
+	
+#monitoring_facebook_profile .guest-comment .avatar{
+	left: 10px;
+	top: 5px;	
+}
+
+#monitoring_facebook_profile .post_comment{
+	position: relative;	
+}
+
+#monitoring_facebook_profile .post_comment .arrow-box-left:after, 
+#monitoring_facebook_profile .post_comment .arrow-box-left:before{
+	border: none;	
+}
+
+#monitoring_facebook_profile .post_comment .avatar{
+	left: 10px;	
+}
+
+#monitoring_facebook_profile .post_comment .arrow-box-left{
+	border: none;
+	margin-left: 50px;	
+}
+
+#monitoring_facebook_profile .post_comment .arrow-box-left .block-content input,
+#monitoring_facebook_profile .post_comment .arrow-box-left #txtComment{
+	width: 99%;
+	min-height: 29px;
+	margin-bottom: 0;	
+}
+#monitoring_facebook_profile .facebook_menu_left{
+	display: none;
+ }
+ 
+ #monitoring_facebook_profile .facebook_menu_left .span2{
+ 	width: 200px;
+ 	border: 1px solid #CCCCCC;
+ 	padding: 10px;
+ }
+ 
+ #monitoring_facebook_profile #content-fb{
+ 	
+ }
+ 
+ #monitoring_facebook_profile .facebook_menu_left ul{
+ 	margin-left: 0;
+ }
+ 
+  #monitoring_facebook_profile .facebook_menu_left ul #list-friends{
+  	height: 350px;
+  }
+ 
+ #monitoring_facebook_profile .facebook_menu_left #title_facebook span,
+ #monitoring_facebook_profile .facebook_menu_left #title_facebook_page span{
+ 	font-weight: 600;
+ 	color: #3B5998;
+ } 
+#monitoring_facebook_profile .postBox{
+float:right;
+width:100%;
+}
+
+#monitoring_facebook_profile .facebook_menu_left li {
+    border-top: 1px solid #CCCCCC;
+    list-style-type: none;
+    padding: 7px;
+}
+
+#monitoring_facebook_profile .facebook_menu_left li a:hover,
+#monitoring_facebook_profile .facebook_menu_left li.active a{
+	color: #3B5998;
+}
+
+#monitoring_facebook_profile .loading-small{
+	background: url(../../../common/images/loading_small.gif) no-repeat center center;
+	min-height: 16px;
+	border: none;	
+}
+
+ #monitoring_facebook_profile .facebook_menu_left .txt-search{
+ 	margin-top: 0;
+ 	margin-bottom: 10px;
+ 	width: 104%;
+ }
+ 
+  #monitoring_facebook_profile .facebook_menu_left .txt-search input{
+  	width: 85%;
+  }
+  
+  #monitoring_facebook_profile #me_feed img{
+  	margin-right: 10px;
+  	 -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3)
+  }
+  
+  #monitoring_facebook_profile #me_feed .fbName{
+  	color: #3B5998;
+  	font-weight: 600;
+  }
+  
+  #monitoring_facebook_profile #newsfeed_facebook a:hover,
+  #monitoring_facebook_profile #newsfeed_facebook a.active{
+  		color: #3B5998;
+  		font-weight: 600;
+  }
+  
+  #monitoring_facebook_profile .block-actions{
+  	float: right;
+  }
+  
+  #monitoring_facebook_profile .block-actions i{
+  	margin-right: 5px;
+  	color: #3B5998;
+  }
+  
+  #monitoring_facebook_profile .block-actions span{
+  	margin-right: 5px;
+  }
+  
+  #monitoring_facebook_profile .block-actions span.engagement-num{
+  	margin-right: 0;
+  }
+#monitoring_facebook_profile .hide_detail{
+	display: block;
+	background: none repeat scroll 0px 0px #3E89B9;
+	padding:5px;
+	padding-right:15px;
+	color:#fff;
+	font-size: 13px;
+	margin-top:-10px;
+	margin-left:-10px;
+	box-shadow: 0 1px 2px #000000;
+	width:100%;
+	cursor:pointer;
+	}
+/***********jScroll*************/
+
+
+.jspContainer
+{
+        overflow: hidden;
+        position: relative;
+        
+}
+
+.jspPane
+{
+        position: absolute;
+}
+
+.jspVerticalBar
+{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 16px;
+        height: 100%;
+        background: red;
+}
+
+.jspHorizontalBar
+{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 16px;
+        background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+        margin: 0;
+        padding: 0;
+}
+
+.jspCap
+{
+        display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+        float: left;
+}
+
+.jspTrack
+{
+        background: #dde;
+        position: relative;
+}
+
+.jspDrag
+{
+        background: #bbd;
+        position: relative;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+        float: left;
+        height: 100%;
+}
+
+.jspArrow
+{
+        background: #50506d;
+        text-indent: -20000px;
+        display: block;
+        cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+        cursor: default;
+        background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+        height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+        width: 16px;
+        float: left;
+        height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+        outline: none;
+}
+
+.jspCorner
+{
+        background: #eeeef4;
+        float: left;
+        height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+        margin: 0 -3px 0 0;
+}
+
+
+.content-area,
+.content-area-page{
+ height:300px;
+ margin-bottom: 20px;
+ width: 190px!important;
+}
+.jspVerticalBar {
+ width: 10px;
+ background: transparent;
+ right:0px;
+}
+ 
+.jspHorizontalBar {
+ bottom: 5px;
+ width: 100%;
+ height: 8px;
+ background: transparent;
+}
+.jspTrack {
+ background: transparent;
+ width: 10px;
+}
+.jspTrackHover {
+ background-color: rgba(0, 0, 0, .15);
+ -webkit-border-radius: 8px;
+}
+.jspDrag {
+        background-color: #AAA;
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px;
+ border-radius:4px;
+ -webkit-transition: width 250ms;
+ width: 5px;
+}
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar  {
+ float: left;
+ height: 100%;
+}
+.jspDrag {
+ float: right;
+}
+.jspCorner {
+ display:none
+}
+
+/****************tooltip-profile**********/
+
+#tooltip-profile {
+background: #fff;
+border: 1px solid #BFBFBF;
+width: 370px;
+margin: 0 auto;
+border-radius: 3px;
+position: absolute;
+display: none;
+padding: 0 0 0 0;
+}
+#tooltip-profile .tooltip-icon
+{
+	border:none !important;
+	box-shadow:none;
+}
+#tooltip-profile .tooltip-icon i
+{
+	position: absolute;
+	top:-14px;
+	left:10px;
+	color:#fff;
+	font-size:18px;
+	text-shadow:0 -1px 1px #333333;
+}
+.profile-tip-padding {
+padding: 20px 10px 10px 10px;
+}
+.profile-tip-cover img {
+/*max-width: 370px!important;
+width: 370px;
+max-height:135px!important;*/
+margin-top: -40px;
+}
+.profile-tip-avatar {
+text-align: left;
+cursor:pointer;
+margin-left:10px;
+}
+.profile-tip-avatar a{
+}
+.profile-tip-avatar img {
+width: 85px;
+height: 85px;
+padding:2px; border:1px solid #FFF;
+margin-top: -55px;
+background:#FFF;
+cursor:pointer;
+}
+#tooltip-profile .block_info{
+	margin-left: 110px;
+	margin-top: -85px;
+	line-height: 14px;
+	position: relative;
+    z-index: 999;	
+}
+
+#tooltip-profile .block_info p{
+	margin-bottom: 0;	
+}
+.profile-tip-info {
+	min-height: 40px;
+	margin-bottom:10px;
+}
+.profile-tip-cover{
+	max-height: 135px;
+	display: block;
+	overflow: hidden;	
+}
+.profile-tip-info .cover-username {
+color: #fff;
+text-shadow: none;
+float: none;
+margin-left: 0;
+font-size:16px;
+line-height: 14px
+font-weight:bold;
+text-shadow: 0 0 1px #333;
+}
+.profile-tip-info .cover-headline {
+	color: #fff;
+	text-shadow: none;
+float: none;
+margin-left:0;
+font-size:12px;
+text-shadow: 0 0 1px #333;
+text-transform: lowercase;
+}
+.profile-tip-info  a { color:#fff; text-decoration:none; }
+.profile-tip-buttons {
+padding: 0 10px 0 10px;
+overflow: auto;
+}
+.profile-tip-buttons-container {
+width: 60px;
+margin: 0 auto;
+}
+.profile-tip-divider {
+width: 280px;
+height: 1px;
+background: #dee0e3;
+margin: 5px auto 25px;
+}
+.profile-tip-bio {
+padding: 10px 10px;
+color: #AAA;
+background: #F2f2f2;
+margin-top: 30px;
+text-align: right;
+}
+
+.msg_bodyl
+{
+min-height:70px;
+margin-bottom:10px;
+border-bottom:solid 1px #fafafa;
+}
+.msg_img img
+{
+float:left;
+height:50px;
+width:50px;
+border:solid 1px #dedede;
+padding:5px;
+cursor:pointer;
+}
+.msg_text
+{
+margin-left:70px;
+min-height:50px;
+word-wrap:break-word;
+overflow:hidden;
+padding:5px;
+display:block;
+font-size:12px;
+font-family:Verdana, Geneva, sans-serif;
+}
+.time { font-size:12px; font-style:italic; color:#999; }
+.loader { background: url('loader.gif'); }
+
+.uibutton {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #EEEEEE;
+    background-image: linear-gradient(#F5F6F6, #E4E4E3);
+    border-color: #999999 #999999 #888888;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 #FFFFFF inset;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 11px 'lucida grande',tahoma,verdana,arial,sans-serif;
+    margin: 0;
+    overflow: visible;
+    padding: 0.3em 0.6em 0.375em;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.uibutton.confirm {
+    background-color: #5B74A8;
+    background-image: linear-gradient(#637BAD, #5872A7);
+    border-color: #29447E #29447E #1A356E;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 1px 0 #8A9CC2 inset;
+    color: #FFFFFF;
+    
+}
+
+#monitoring_facebook_page .timeline .avatar .tooltip-profile{
+	width: 300px;
+	padding: 0;
+		
+}
+.information-profile {
+    margin-top: 0;
+}
+#monitoring_facebook_page .block_info p.mutual_friends {
+    font-size: 11px;
+}
+.list-information{
+	color:#FFF;
+	margin-top: 0;
+	margin-left: 0;
+	display: block;
+	overflow: hidden;
+	text-shadow: 0 0 1px #333333;
+}
+
+.list-information li{
+	list-style: none;
+	margin-right: 10px;
+	float: left;	
+}
+
+#tooltip-profile #loading{
+	padding: 10px 0;
+	background: url("../../../common/images/loading_small.gif") no-repeat center center;
+	width: 100%;
+	height: 16px;	
+}
+
+#monitoring_facebook_profile .nodata {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    opacity: 0.7;
+    float: none!important;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#monitoring_facebook_profile .nodata h4 {
+    color: #FFFFFF;
+}
+/* create new task*/
+
+#new_task .timeline .avatar img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+#new_task .timeline .avatar {
+    left: -60px;
+}
+
+#new_task .timeline .avatar i {
+    font-size: 18px;
+    position: absolute;
+    right: -5px;
+    top: 40px;
+}
+.comment-task{
+padding-left:64px;
+padding-bottom:10px;
+}
+#new_task .arrow-box-left .content {
+    border-top: medium none;
+}
+#new_task .btn.btn-blue{
+border: 1px solid #337ca1;
+	-webkit-box-shadow: inset 0 1px 2px #6eb0d1;
+	-moz-box-shadow: inset 0 1px 2px #6eb0d1;
+	box-shadow: inset 0 1px 2px #6eb0d1;
+	background: #3d94c0;
+	background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzViYTVjYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNkOTRjMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+	background-size: 100%;
+	background-image: -webkit-gradient(linear, 50% 0, 50% 100%, color-stop(0%, #5ba5cb), color-stop(100%, #3d94c0));
+	background-image: -webkit-linear-gradient(top, #5ba5cb, #3d94c0);
+	background-image: -moz-linear-gradient(top, #5ba5cb, #3d94c0);
+	background-image: -o-linear-gradient(top, #5ba5cb, #3d94c0);
+	background-image: linear-gradient(top, #5ba5cb, #3d94c0);
+	margin:5px;
+}
+#new_task .arrow-box-left {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: none;
+    position: relative;
+}
+#new_task .icon-text{
+margin-right:2px;
+}
+#new_task #span_bottom i{
+margin-right:5px;
+color:#009900;
+cursor:pointer;
+}
+#new_task .priority-text{
+margin-right:25px;
+font-size: 12px;
+font-weight: 600;
+}

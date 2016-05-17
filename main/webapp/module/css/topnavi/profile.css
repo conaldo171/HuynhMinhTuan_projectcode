@@ -1,0 +1,111 @@
+/* 
+topnavi/profile
+main id : #topnavi_profile
+*/
+
+#topnavi_profile #persional{
+	width: 50%;
+	margin: 15px auto 0;	
+}
+#topnavi_profile .fields{
+		
+}
+
+#topnavi_profile input{
+	padding-left: 10px;	
+}
+
+#topnavi_profile #group{
+	padding: 20px 20px 0 20px;	
+}
+
+#topnavi_profile table th,
+#topnavi_profile table td{
+	text-align: center;
+}
+
+#topnavi_profile .group-form{
+	width: 50%;
+	margin: 0 auto;	
+}
+
+#topnavi_profile .block-button{
+	margin-left: 120px;	
+}
+
+#topnavi_profile .fields label{
+	width: 120px;
+	float: left;
+	padding-top: 5px;	
+}
+
+#topnavi_profile .input-prepend{
+	width: 75%;	
+}
+
+#topnavi_profile .input-prepend select{
+	line-height: 36px;
+	color: #858585;
+	font-size: 12px;
+	padding: 8px;
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px	
+}
+
+#topnavi_profile .yourname input {
+    width: 49%;
+}
+#topnavi_profile .yourname input.lastname {
+    margin-left: 2%;
+    padding-left: 10px;
+}
+#topnavi_profile input.parsley-error
+{
+	border-color:#F00;
+}
+#topnavi_profile .input-prepend .add-on{
+	min-width: 34px;
+	border-bottom:none;
+	border-left:none;
+	border-top:none;
+	margin-left:1px;
+	margin-top:1px;
+	height:94%;
+}
+#topnavi_profile ul.parsley-error-list
+{
+	position:absolute;
+	left:100%;
+	border-radius:10px;
+	color:#FF;
+	padding:5px;
+	line-height:100%;
+	top: 0;
+	z-index:50;
+	transition: ease-out all 0.5s;
+}
+#topnavi_profile ul.parsley-error-list li
+{
+	line-height:100% !important;	
+}
+
+#topnavi_profile .alert-error {
+    padding: 10px;
+}
+
+#topnavi_profile .yourname input{
+	width: 49%;	
+}
+#topnavi_profile .yourname input.lastname{
+	padding-left: 10px;
+	margin-left: 2%;
+}
+
+#topnavi_profile .alert-error{
+	padding : 10px;	
+}

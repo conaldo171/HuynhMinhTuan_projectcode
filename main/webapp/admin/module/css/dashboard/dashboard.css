@@ -1,0 +1,86 @@
+
+.dashboard_dashboard_page #aoFrm-content{
+	padding-top: 10px;	
+}
+
+#dashboard_dashboard .block-title .right-title{
+	padding-bottom: 20px;
+}
+
+#dashboard_dashboard .block-title .right-title .box-toolbar{
+	margin:  0;	
+}
+
+#dashboard_dashboard .block .box-header .title i{
+	margin-right: 5px;		
+}
+
+#dashboard_dashboard .block .block-title{
+	padding-bottom: 10px;
+	display: block;
+	overflow: hidden;
+}
+
+#dashboard_dashboard .block-title .right-title .box-toolbar li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;	
+}
+
+#dashboard_dashboard .block-title .right-title .box-toolbar li button{
+	padding: 1px 12px;	
+}
+
+#dashboard_dashboard .block-title .right-title .box-toolbar li .input-prepend{
+	height:  27px!important;
+	line-height: 27px!important;
+	margin-bottom: 0;	
+}
+
+#dashboard_dashboard .block-title .right-title .box-toolbar li .input-prepend i{
+	font-size:  15px;
+	line-height: 17px!important;	
+}
+
+#dashboard_dashboard .block-title .right-title .box-toolbar li .input-prepend input{
+	min-width: 200px;
+	padding-right: 2px;	
+}
+
+#dashboard_dashboard .block-top-summary{
+	display: block;
+	clear: both;	
+}
+
+
+#dashboard_dashboard .list-member{
+	margin-left: 0;	
+}
+
+#dashboard_dashboard .list-member li{
+	border-top: 1px solid #CCCCCC;
+	list-style: none;
+	padding: 7px;
+	position: relative;	
+}
+
+#dashboard_dashboard .list-member li a:hover,
+#dashboard_dashboard .list-member li a.active{
+	color: #3B5998;	
+}
+
+#dashboard_dashboard .list-member li span.amount{
+	position: absolute;
+	right: 15px;
+	top: 8px;	
+}
+
+#dashboard_dashboard .block .box-header .box-toolbar i{
+	margin-right: 5px;	
+}
+
+.member-chart{
+	height: 200px;	
+}
+
+

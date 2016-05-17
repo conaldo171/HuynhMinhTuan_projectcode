@@ -1,0 +1,263 @@
+/* 
+contents/all
+main id : #contents_all_comment
+*/
+
+#contents_all_comment{
+	
+}
+#contents_all_comment .timeline .avatar
+{
+	left:-60px;
+}
+#contents_all_comment .edit {
+    bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+#contents_all_comment .timeline .avatar i{
+	position:absolute;
+	top:40px;
+	right:-5px;
+	font-size:18px;
+}
+#contents_all_comment .timeline .avatar span.label
+{
+	display:block;
+	text-align:center;	
+	width:805;
+	margin:auto;
+	margin-top:10px;
+	font-size:11px;
+}
+#contents_all_comment .timeline .avatar img
+{
+	max-height:50px;
+	max-width:50px;		
+}
+#contents_all_comment .section {
+	
+}
+.contents_all_comment_page #aoFrm-content-top #contentTop_contentsList 
+{
+	display:block;	
+}
+
+@media only screen and (max-width:480px) {	
+	
+	#contents_all_comment .timeline .avatar
+	{
+		left:10px;
+	}
+	#contents_all_comment .chat-box.timeline .arrow-box-left .name {
+    	float: left;
+    	margin-left: 67px;
+	}
+}
+@media only screen and (max-width:12010px)
+{
+	.contents_all_comment_page #aoFrm-content-top #contentTop_contentsList 
+	{		
+		margin-right:auto;
+	}	
+}
+@media only screen and (max-width:767px)
+{
+	.contents_all_comment_page #aoFrm-content-top #contentTop_contentsList 
+	{		
+		float:none;
+		display:inline-block;
+	}	
+}
+
+#contents_all_comment .createForm .account {
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+}
+
+#contents_all_comment .createForm .account .imgBox .channel-icon {
+    bottom: 0;
+    color: #3B5998;
+    position: absolute;
+    right: 3px;
+}
+
+
+#contents_all_comment .createForm .account .imgBox {
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    padding: 4px 0;
+}
+
+#contents_all_comment .createForm{
+	padding-left: 110px;	
+}
+
+#contents_all_comment .createForm .area_01{
+	margin-bottom: 0;	
+}
+
+#contents_all_comment .time-group {
+    border: 1px solid #E2E2E2;
+    min-height: 251px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#contents_all_comment .time-group .wrapGroup {
+    padding: 15px;
+}
+
+#contents_all_comment .date_txt {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+#contents_all_comment .body-draft.open-draft{
+	display: block;
+}
+
+#contents_all_comment .body-draft.close-draft{
+	display: none;
+}
+#contents_all_comment .body-schedule.open-scheduled{
+	display: block;
+}
+
+#contents_all_comment .body-schedule.close-scheduled{
+	display: none;
+}
+#contents_all_comment .account_list {
+    list-style: none outside none;
+    text-align: left;
+}
+
+#contents_all_comment .account_list li.item {
+    list-style: none outside none;
+    padding: 8px 10px 8px 15px;
+}
+
+#contents_all_comment .account_list .title {
+    display: inline-block;
+    font-weight: bold;
+    margin: 5px 0 10px;
+}
+
+#contents_all_comment .account_list li, #contents_all_comment .account_list ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#contents_all_comment .account_choice button {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#contents_all_comment .account_choice button span {
+    margin: 0 5px;
+}
+#contents_all_comment .modal-body {
+    overflow-y: visible;
+}
+
+#contents_all_comment .delete {
+    bottom: 11px;
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+}
+.contents_all_comment_page #aoFrm-content-top #contentTop_contentsList {
+    margin-right: auto;
+}
+.contents_all_comment_page #aoFrm-content-top #contentTop_contentsList {
+    display: block;
+}
+
+#contents_all_comment .nodata {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    opacity: 0.7;
+    float: none!important;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#contents_all_comment .nodata h4 {
+    color: #FFFFFF;
+}
+
+#contents_all_comment .arrow-box-left {
+    background: none repeat scroll 0 0 #FFF;
+    box-shadow: none;
+    position: relative;
+}
+#contents_all_comment .arrow-box-left .content {
+    border-top: medium none;
+}
+
+/* css comment*/
+#contents_all_comment .block-comment {
+    background: none repeat scroll 0 0 #EDEFF4;
+}
+#contents_all_comment .guest-comment {
+    border: 1px solid #FFFFFF;
+    padding: 5px 10px;
+    position: relative;
+}
+#contents_all_comment .guest-comment .avatar {
+    left: 10px;
+    top: 5px;
+}
+
+#contents_all_comment .timeline .comment .avatar img {
+    max-height: 40px;
+    max-width: 40px;
+}
+#contents_all_comment .guest-comment .arrow-box-left:after, #contents_all_comment .guest-comment .arrow-box-left:before {
+    border: medium none;
+}
+#contents_all_comment .arrow-box-left .block-content blockquote {
+    border: medium none;
+    clear: both;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+#contents_all_comment .guest-comment blockquote {
+    border-left: 0 none;
+    margin: 0;
+    padding-left: 0;
+}
+#contents_all_comment .arrow-box-left .info {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin-bottom: 0;
+    padding: 0 5px 5px 10px;
+    position: relative;
+}
+
+#contents_all_comment .guest-comment .arrow-box-left {
+    background: none repeat scroll 0 0 #EDEFF4;
+    margin-bottom: 0;
+    margin-left: 50px;
+    margin-top: 0;
+}
+#contents_all_comment .guest-comment .content {
+    border: medium none;
+    padding: 0 !important;
+}
+#contents_all_comment .guest-comment .delComment {
+    bottom: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+#contents_all_comment .guest-comment .edit{
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	bottom: 10px;	
+}

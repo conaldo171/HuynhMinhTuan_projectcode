@@ -1,0 +1,69 @@
+/* 
+topnavi/connect_a_channel
+main id : #topnavi_connect_a_channel
+*/
+
+#topnavi_connect_a_channel .accCountList li{	
+	min-width:210px;
+	max-width:300px;
+	list-style:none;
+	display:inline-block;
+	margin-top:10px;	
+}
+#topnavi_connect_a_channel .accCountList li .account-name
+{	
+	float:left;
+	padding-top:25px;
+}
+#topnavi_connect_a_channel .accCountList li .avatar
+{	
+	display:block;
+	width:60px;
+	float:left;
+	position:relative;
+}
+#topnavi_connect_a_channel .accCountList li .avatar img
+{
+	max-width:80px;
+	max-height:80px;
+}
+#topnavi_connect_a_channel .accCountList li .avatar i
+{
+	position:absolute;
+	bottom:0;
+	font-size:20px;
+	right:0;
+}
+#connect_a_channel_Popup  .fb.selected a ,#connect_a_channel_Popup .fb.selected a i,#connect_a_channel_Popup_Page  .fb.selected a ,#connect_a_channel_Popup_Page .fb.selected a i
+{
+	background:#3B5998;
+	color:#FFF;	
+}
+#connect_a_channel_Popup .tw.selected a ,#connect_a_channel_Popup .tw.selected a i,#connect_a_channel_Popup_Page .tw.selected a ,#connect_a_channel_Popup_Page .tw.selected a i
+{
+	background:#24AEEB;
+	color:#FFF;	
+}
+#connect_a_channel_Popup .channel-group .action-nav-button,#connect_a_channel_Popup_Page .channel-group .action-nav-button
+{
+	position:relative;
+}
+#connect_a_channel_Popup .channel-group .action-nav-button .icon-check,#connect_a_channel_Popup_Page .channel-group .action-nav-button .icon-check
+{
+	position:absolute;
+	top:3px;
+	right:3px;
+	color:#FFF;
+	display:none;
+	font-size:15px;
+}
+#connect_a_channel_Popup .channel-group .action-nav-button.selected a .icon-check,#connect_a_channel_Popup_Page .channel-group .action-nav-button.selected a .icon-check
+{
+	display:block;
+}
+
+@media only screen and (max-width:480px) {	
+	
+
+}
+

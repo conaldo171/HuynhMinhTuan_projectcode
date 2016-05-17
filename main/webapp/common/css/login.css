@@ -1,0 +1,72 @@
+/* CSS Document */
+.loginPage input.parsley-error
+{
+	border-color:#F00;
+}
+.loginPage .input-prepend .add-on{
+	min-width: 34px;
+	border-bottom:none;
+	border-left:none;
+	border-top:none;
+	margin-left:1px;
+	margin-top:1px;
+	height:95%;
+}
+
+.loginPage ul.parsley-error-list
+{
+	position:absolute;
+	left:100%;
+	border-radius:10px;
+	color:#FF;
+	padding:5px;
+	line-height:100%;
+	top: 0;
+	z-index:50;
+	transition: ease-out all 0.5s;
+}
+.loginPage ul.parsley-error-list li
+{
+	line-height:100% !important;	
+}
+
+.loginPage .yourname input{
+	width: 49%;	
+}
+
+.loginPage .alert-error{
+	padding : 10px;	
+}
+
+.loginPage a strong{
+	color: #0088CC;	
+}
+
+.loginPage .block-remember{
+	clear: both;
+	overflow: hidden;		
+}
+
+.loginPage .block-remember .left{
+	float: left;		
+}
+
+.loginPage .block-remember .left i{
+	color: #009900;
+	cursor: pointer;	
+}
+
+.loginPage .block-remember .right{
+	float: right;
+	padding-top: 2px;
+}
+#divResetPassword ul.parsley-error-list {
+    border-radius: 10px 10px 10px 10px;
+    line-height: 100%;
+    padding: 5px;
+    position: absolute;
+    left: 68%;
+    top: 0;
+    transition: all 0.5s ease-out 0s;
+    z-index: 50;
+}

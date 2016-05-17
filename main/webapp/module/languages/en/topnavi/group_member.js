@@ -1,0 +1,31 @@
+// contents / sent 
+[{
+	__groups			:"Groups & members",
+	__personalsetting	:"Personal Setting",
+	__name				:"Name",
+	__firstname			:"First name",
+	__lastname			:"Last name",
+	__email				:"Email",
+	__cellphone			:"Cell Phone",
+	__companyname		:"Company Name",
+	__companywebsite	:"Company Website",
+	__companyaddress	:"Company Address",
+	__save				:"Save",
+	__profile			:"Profile",
+	__teammembers		:"Team Members",
+	__invite			:"Invite Member",
+	__name_f_l			:"Name (First name, Last name)",
+	__email				:"Email",
+	__division			:"Division",
+	__administrator		:"Administrator",
+	__client			:"Client",
+	__selectprofilesassign:"Select profiles assign.",
+	__twitterprofile	:"Twitter Profile",
+	__facebookprofile	:"Facebook Profile",
+	__fillwrong			:"You must fill in all of the fields.",
+	__emailexist		:"Email does exist",
+	__validurl			:"This value should be a valid url.",
+	__validcellphone	:"This value should be a valid phone number.",
+	__value				:"This value is required."
+	
+}]

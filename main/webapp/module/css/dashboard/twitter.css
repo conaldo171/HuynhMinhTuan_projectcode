@@ -1,0 +1,308 @@
+/* CSS Document */
+#dashboard_twitter .summary .input-append,#dashboard_twitter .summary .input-prepend
+{
+	height:27px !important;
+	line-height:27px !important;	
+}
+#dashboard_twitter .title i{
+	color: #24AEEB;
+}
+#dashboard_twitter .section {
+	
+}
+
+#dashboard_twitter .summary .box-header .box-toolbar{
+	float: right;	
+}
+
+#dashboard_twitter .summary .box-header .box-toolbar li{
+	list-style: none;	
+}
+
+#dashboard_twitter .summary .input-append input, #dashboard_twitter .summary .input-prepend input {
+    min-width: 200px;
+    padding-right: 2px;
+}
+
+#dashboard_twitter .summary .input-append, #dashboard_twitter .summary .input-prepend {
+    height: 27px !important;
+    line-height: 27px !important;
+}
+
+#dashboard_twitter .summary .input-append .add-on i, #dashboard_twitter .summary .input-prepend .add-on i {
+    font-size: 15px;
+    line-height: 17px !important;
+}
+
+#dashboard_twitter .summary .block-summary{
+	text-align:  center;
+	padding: 20px 0;
+	width: 17%;	
+}
+
+#dashboard_twitter .summary .block-summary i{
+	color: #24AEEB;
+	font-size:  50px;
+	display: block;	
+}
+
+#dashboard_twitter .summary .block-summary span{
+	display: block;
+	color: #24AEEB;
+	text-transform: uppercase;	
+}
+
+#dashboard_twitter .summary .block-summary span span{
+	display: inline-block;	
+}
+
+#dashboard_twitter .summary .block-summary span.title{
+	font-size: 14px;
+	padding: 5px 0 2px;
+	color: #78808A;
+}
+
+#dashboard_twitter .summary .table td{
+	text-align: center;	
+}
+
+#dashboard_twitter .summary .table td.story{
+	text-align: left;	
+}
+
+#dashboard_twitter .summary .table td.story .name{
+	color: #24AEEB;
+	font-weight: bold;	
+}
+
+#dashboard_twitter .itemLoading{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;		
+}
+
+#dashboard_twitter .nodata{
+	padding: 10px;
+	color: #FFF;
+	background: #000;
+	position: absolute;
+	top: 40px;
+	left: 30%;
+	opacity: 0.7;
+  	filter:alpha(opacity=60); /* For IE8 and earlier */	
+}
+
+#dashboard_twitter .nodata h4{
+	color: #FFF;	
+}
+
+/***********************************/
+
+#dashboard_twitter .menu_left {
+    float: left;
+    width: 20%;
+}
+
+#dashboard_twitter .menu_left .list-profile{
+	margin-left: 0;	
+}
+
+#dashboard_twitter .menu_left #list-profile{
+	margin-left: 0;	
+}
+
+
+#dashboard_twitter .menu_left li {
+    border-top: 1px solid #CCCCCC;
+    list-style-type: none;
+    padding: 7px;
+}
+
+#dashboard_twitter .menu_left li a:hover,
+#dashboard_twitter .menu_left li.active a{
+	color: #3B5998;
+}
+
+
+#dashboard_twitter .content_right {
+    position: relative;
+}
+
+#dashboard_twitter .content_right .block_content{
+		
+}
+#dashboard_twitter .demographic{
+	text-align:center;
+}
+#dashboard_twitter .demographic .chartBox h5{
+	position:absolute;
+	background:#FBFBFB;
+	bottom:-10px;
+	left:0;
+	padding:0 0 15px 0;
+	width:100%;
+	text-align:center;	
+
+	font-size:14px;
+}
+#dashboard_twitter .demographic .chartBox{
+	position:relative;	
+}
+#dashboard_twitter .demographic .chartBox p{	
+	position:absolute;
+	top:37%;
+	width:100%;	
+	left:0;
+	text-align:center;
+}
+#dashboard_twitter .demographic .chartBox i{
+	font-size:60px !important;		
+}
+
+@media only screen and (max-width:767px)
+{
+	#dashboard_twitter .demographic .chartBox{
+		border-bottom:dotted 1px #EBEBEB;
+	}
+	#dashboard_twitter .demographic .chartBox:last-child{
+		border-bottom:none;
+	}
+	#dashboard_twitter .demographic .chartBox p{			
+		top:40%;		
+	}
+	#dashboard_twitter .demographic .chartBox i{
+		font-size:60px;		
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1300px)
+{
+	#dashboard_twitter .demographic .chartBox p{			
+		top:34%;		
+	}
+	#dashboard_twitter .demographic .chartBox i{
+		font-size:50px;		
+	}
+}
+
+#dashboard_twitter .block-title{
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 5px;	
+}
+
+#dashboard_twitter .block-title .left-title{
+	float: left;
+	padding-top: 7px;
+	font-size: 15px;	
+}
+
+#dashboard_twitter .block-title .left-title span{
+	margin-left: 5px;	
+}
+
+#dashboard_twitter .block-title .right-title{
+	float: right;	
+}
+
+#dashboard_twitter .block-title .right-title .box-toolbar{
+	margin:  0;	
+}
+
+#dashboard_twitter .block-title .right-title .box-toolbar li{
+	list-style: none;	
+}
+
+#dashboard_twitter .block-title .right-title .box-toolbar li .input-prepend{
+	height:  27px!important;
+	line-height: 27px!important;	
+}
+
+#dashboard_twitter .block-title .right-title .box-toolbar li .input-prepend i{
+	font-size:  15px;
+	line-height: 17px!important;	
+}
+
+#dashboard_twitter .block-title .right-title .box-toolbar li .input-prepend input{
+	min-width: 200px;
+	padding-right: 2px;	
+}
+
+.dashboard_twitter_page #aoFrm-content{
+	padding: 0 15px;	
+}
+#dashboard_twitter #twitter_summary .block-summary i{
+	color: #24AEEB;
+	font-size:  50px;
+	display: block;	
+}
+
+#dashboard_twitter #twitter_summary .block-summary .number span{
+	display: block;
+	color: #24AEEB;	
+	display:inline;
+}
+#dashboard_twitter #twitter_summary  .block-summary span.title{
+	font-size: 14px;
+	padding: 5px 0 2px;
+	color: #78808A;
+}
+
+#dashboard_twitter .box-header ul#list-twitter-db{
+	display: block;	
+	margin-left: 0;
+}
+
+#dashboard_twitter .box-header ul#list-twitter-db li{
+	cursor: pointer;
+	padding: 5px 12px 5px 12px;
+	float: left;
+	margin:5px; 
+	list-style: none;	
+}
+#dashboard_twitter .box-header ul#list-twitter-db li i{	
+	margin-right:5px;
+}
+#dashboard_twitter .box-header ul#list-twitter-db li:hover,
+#dashboard_twitter .box-header ul#list-twitter-db li.active{
+	background: #888888;
+	color:#FFF;
+	box-shadow:inset 0 0 3px #333;
+	border-radius:4px;
+	text-shadow:0 0 1px #333333;
+}
+#dashboard_twitter .box-header ul#list-twitter-db li:hover i,
+#dashboard_twitter .box-header ul#list-twitter-db li:hover span,
+#dashboard_twitter .box-header ul#list-twitter-db li.active i,
+#dashboard_twitter .box-header ul#list-twitter-db li.active span{
+	color:#FFF;
+	text-shadow:0 0 1px #333333;	
+}
+
+/************/
+
+#dashboard_twitter .summary .block-summary .right{
+	text-align: left;
+	font-size:  18px;
+}
+
+#dashboard_twitter .summary .block-summary .right i{
+	font-size: 18px;
+	margin: 5px;
+	float: left;	
+}
+
+#dashboard_twitter .summary .block-summary .right .number{
+	color: #000;	
+}
+
+#dashboard_twitter .summary .block-summary .right .blue{
+	color: #3B5998;	
+}
+
+#dashboard_twitter .summary .block-summary .right .red span,
+#dashboard_twitter .summary .block-summary .right .red i{
+	color: #AA433A;
+}	
+ 

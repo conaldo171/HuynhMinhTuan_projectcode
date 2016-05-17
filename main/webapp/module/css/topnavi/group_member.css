@@ -1,0 +1,240 @@
+/* 
+topnavi/group_member
+main id : #topnavi_group_member
+*/
+
+#topnavi_group_member{
+	
+}
+#topnavi_group_member .title{
+	
+}
+#topnavi_group_member .section {
+	
+}
+.menu_left {
+float:left;
+width:20%;
+}
+.menu_left li {
+ list-style-type: none;
+ padding:7px;
+ border-top: 1px solid #ccc;
+}
+.menu_left li a:hover,
+.menu_left li a.active{
+	color: #0088CC;	
+}
+.content_right {
+float:right;
+width: 77%;
+margin-right:4px;
+}
+#topnavi_profile #persional{
+	padding-left:15px;
+	margin: 15px auto 0;	
+}
+#topnavi_profile #invite{
+	padding-left:15px;
+	margin: 15px auto 0;	
+}
+#topnavi_profile .fields{
+		
+}
+
+#topnavi_profile input{
+	padding-left: 10px;	
+}
+
+#topnavi_profile #group{
+	padding: 20px 20px 0 20px;	
+}
+
+#topnavi_profile table th,
+#topnavi_profile table td{
+	text-align: center;
+}
+
+#topnavi_profile .group-form{
+	width: 50%;
+	margin: 0 auto;	
+}
+
+#topnavi_profile .block-button{
+	margin-left: 120px;	
+}
+
+#topnavi_profile .fields label{
+	width: 120px;
+	float: left;
+	padding-top: 5px;	
+}
+
+#topnavi_profile .input-prepend{
+	width: 75%;	
+}
+
+#topnavi_profile .input-prepend select{
+	line-height: 36px;
+	color: #858585;
+	font-size: 12px;
+	padding: 8px;
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px	
+}
+
+#topnavi_profile .yourname input {
+    width: 49%;
+}
+#topnavi_profile .yourname input.lastname {
+    margin-left: 2%;
+    padding-left: 10px;
+}
+#topnavi_profile input.parsley-error
+{
+	border-color:#F00;
+}
+#topnavi_profile .input-prepend .add-on{
+	min-width: 34px;
+	border-bottom:none;
+	border-left:none;
+	border-top:none;
+	margin-left:1px;
+	margin-top:1px;
+	height:94%;
+}
+#topnavi_profile ul.parsley-error-list
+{
+	position:absolute;
+	right:1%;
+	border-radius:10px;
+	color:#FF;
+	padding:5px;
+	line-height:100%;
+	top: 0;
+	z-index:50;
+	transition: ease-out all 0.5s;
+}
+#topnavi_profile ul.parsley-error-list li
+{
+	line-height:100% !important;	
+}
+
+#topnavi_profile .alert-error {
+    padding: 10px;
+}
+
+#topnavi_profile .yourname input{
+	width: 49%;	
+}
+#topnavi_profile .yourname input.lastname{
+	padding-left: 10px;
+	margin-left: 2%;
+}
+
+#topnavi_profile .alert-error{
+	padding : 10px;	
+}
+#profiles .accCountList li {
+    display: inline-block;
+    list-style: none outside none;
+    margin-top: 10px;
+    max-width: 300px;
+    min-width: 210px;
+    margin-bottom:10px;
+    margin-right: 10px;
+    border:1px;
+    border-radius: 5px 5px 5px 5px;
+    padding:10px;
+}
+#profiles .accCountList  li:hover {
+    border: 1px solid #CFD1D2;
+    border-radius: 5px 5px 5px 5px;
+    padding:10px;
+}
+#profiles .accCountList li span.remove:hover {
+    display:block;
+    height: 13px;
+    top: 12px;
+    width: 12px;
+}
+
+#profiles .accCountList li .avatar {
+    display: block;
+    float: left;
+    position: relative;
+    width: 60px;
+}
+#profiles .accCountList li .account-name {
+    float: left;
+    padding-top: 25px;
+     width: 65%;
+}
+#profiles .accCountList li .avatar img {
+    max-height: 80px;
+    max-width: 80px;
+}
+#profiles li span.remove {
+    display:none;
+    height: 13px;
+    top: 12px;
+    width: 12px;
+}
+
+.glow_x {
+    
+    font-size:16px;
+    cursor: pointer;
+}
+.ficon {
+
+    white-space: nowrap;
+}
+
+#profiles li:hover span.remove {
+    display: block;
+}
+#members .accCountList li {
+    display: inline-block;
+    list-style: none outside none;
+    margin-top: 10px;
+    max-width: 300px;
+    min-width: 210px;
+    margin-bottom:10px;
+    margin-right: 10px;
+    border:1px solid #CFD1D2 ;
+    border-radius: 5px 5px 5px 5px;
+    padding:10px;
+}
+#members li span.remove {
+    height: 13px;
+    top: 12px;
+    width: 12px;
+    line-height: 0.2em;
+}
+#members .accCountList li .account-name {
+    float: left;
+    width: 90%;
+}
+.checkinput{
+  float:right;
+}
+.accCountList{
+	margin-top: 10px;	
+}
+#invite .box-content li{
+list-style: none;
+display: block;
+clear: both;
+width:90%;
+overflow: hidden;
+}
+
+.box-content li label{
+	float: left;
+}

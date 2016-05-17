@@ -1,0 +1,270 @@
+
+#competitors_twitter{
+		
+}
+
+#competitors_twitter .leftName{
+	text-align: right;	
+}
+
+#competitors_twitter .leftName p{
+	border: 1px solid #CCCCCC;
+	float: right;
+	padding: 10px;
+	color: #3B5998;
+	font-weight: bold;	
+}
+
+#competitors_twitter .rightName{
+	
+}
+
+#competitors_twitter .rightName p{
+	border: 1px solid #CCCCCC;
+	float: left;
+	padding: 10px;
+	color: #3B5998;
+	font-weight: bold;	
+}
+
+#competitors_twitter .centerName{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#competitors_twitter .blockPage{
+	margin-left: 0;	
+}
+
+#competitors_twitter .blockPage li{
+	float: left;
+	list-style: none;	
+}
+
+
+#competitors_twitter .blockPage li.name{
+	padding: 15px 10px;
+	color: #24AEEB;
+	font-weight: bold;	
+}
+
+#competitors_twitter .blockPage li img{
+	max-height: 50px;
+	max-width: 50px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.5)	
+}
+
+.mL0{
+	margin-left: 0!important;	
+}
+
+#competitors_twitter .blockCompare{
+		
+}
+
+#competitors_twitter .blockCompare label{
+	text-transform: uppercase;	
+}
+
+#competitors_twitter .blockCompare .blockGray{
+	background: #CCC;
+	color: #FFF;
+	width: 100%
+}
+
+#competitors_twitter .blockCompare .leftCompare .blockColor{
+	background: #3880AA;
+	width: 0;
+	float: right;
+}
+
+#competitors_twitter .blockCompare .blockColor p{
+	margin-bottom: 0;		
+}
+
+#competitors_twitter .blockCompare .rightCompare .blockColor{
+	background: #4DA944;
+	width: 0;
+	float: left;	
+}
+
+#competitors_twitter .blockCompare .blockGray{
+	position: relative;	
+}
+
+#competitors_twitter .blockCompare .blockColor {
+	padding: 8px 0;	
+}
+
+#competitors_twitter .blockCompare .blockColor p{
+	margin-bottom: 0;
+	position: absolute;
+	color: #000;
+	top: 0;		
+}
+
+#competitors_twitter .blockCompare .leftCompare .blockColor p.percent{
+	left: 5px;	
+}
+
+#competitors_twitter .blockCompare .leftCompare .blockColor p.number{
+	right: 5px;	
+}
+
+#competitors_twitter .blockCompare .rightCompare .blockColor p.percent{
+	right: 5px;	
+}
+
+#competitors_twitter .blockCompare .rightCompare .blockColor p.number{
+	left: 5px;	
+}
+
+
+#competitors_twitter .right-title .box-toolbar {
+    margin: 0;
+}
+
+#competitors_twitter .right-title .box-toolbar li {
+    display: inline-block;
+    list-style: none outside none;
+    margin-left: 10px;
+}
+
+
+#competitors_twitter .right-title .box-toolbar li .input-prepend {
+    height: 27px !important;
+    line-height: 27px !important;
+    margin-bottom: 0;
+}
+
+#competitors_twitter .right-title .box-toolbar li .input-prepend i {
+    font-size: 15px;
+    line-height: 17px !important;
+}
+
+
+#competitors_twitter .right-title .box-toolbar li a.dropdown-toggle {
+    padding: 2px 12px;
+}
+
+#competitors_twitter .right-title .box-toolbar li {
+    display: inline-block;
+    list-style: none outside none;
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+#competitors_twitter .right-title .box-toolbar .dropdown-menu li{
+	display: block;	
+}
+
+
+#competitors_twitter .right-title .box-toolbar li .input-prepend input {
+    min-width: 200px;
+    padding-right: 2px;
+}
+
+#competitors_twitter .list_note{
+	
+}
+
+#competitors_twitter .list_note li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;	
+}
+
+#competitors_twitter .list_note li.line_blue{
+	border: 1px solid #3880AA;
+	width: 50px;
+	margin-top: 8px;	
+}
+
+#competitors_twitter .list_note li.line_green{
+	border: 1px solid #4DA944;
+	width: 50px;
+	margin-top: 8px;
+}
+
+#competitors_twitter table tr td{
+	text-align: center;	
+}
+
+.competitors_twitter_page #aoFrm-content{
+	position: relative;	
+}
+
+.competitors_twitter_page .nodata {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    float: none !important;
+    margin: 0 auto;
+    opacity: 0.7;
+    position: absolute;
+    top: 30px;
+    left: 30%;
+    padding: 10px;
+}
+
+.competitors_twitter_page .nodata h4 {
+    color: #FFFFFF;
+}
+
+#competitors_twitter .leftName .block_name_search{
+	width: 211px;
+	float: right;
+	position: relative;		
+}
+
+#competitors_twitter .rightName .block_name_search{
+	width: 211px;
+	float: left;
+	position: relative;
+}
+
+#competitors_twitter .leftName .block_name_search .ui-menu,
+#competitors_twitter .rightName .block_name_search .ui-menu{
+	height: 300px;
+	overflow: auto;		
+}
+
+#competitors_twitter .leftName .block_name_search .ui-menu li,
+#competitors_twitter .rightName .block_name_search .ui-menu li{
+	width: 100%!important;
+	text-align: left;	
+}
+
+#competitors_twitter .ui-jqgrid .ui-jqgrid-bdiv{
+	height: auto!important;
+}
+
+.competitors_twitter_page .itemLoading{
+	top: 4%!important;
+	position: absolute;
+	width: 100%;
+}
+
+#competitors_twitter .block_name_search input{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px
+}
+
+#competitors_twitter .block_show_competitors{
+	display: none;	
+}
+
+#competitors_twitter #btn_back{
+	float: left;
+	margin-top: 10px;	
+}

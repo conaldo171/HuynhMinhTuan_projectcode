@@ -1,0 +1,202 @@
+/* 
+contents/create 
+main id : #contents_create 
+*/
+
+#contents_create{
+	
+}
+#contents_create .createForm{
+	padding-left:150px;
+	position:relative;	
+}
+#contents_create .createForm .account {
+	position:absolute;
+	left:0;
+	top:0;
+	text-align:center;
+}
+#contents_create .createForm .account .imgBox 
+{
+	position:relative;
+	margin-bottom:10px;
+	padding-bottom:15px;
+	text-align:center;
+}
+#contents_create .createForm .account .imgBox .channel-icon
+{
+	position:absolute;
+	bottom:5px;
+	right:3px;	
+	color:#3b5998;
+}
+#contents_create .createForm .account .imgBox .caret
+{
+	text-align:center;
+	position:absolute;
+	bottom:5px;	
+	cursor:pointer;
+	
+}
+#contents_create .createForm .account .imgBox .channel-icon i
+{
+	font-size:20px !important;
+}
+#contents_create .createForm .account button
+{
+	
+	margin:auto;
+	width: 94px;
+}
+#contents_create .createForm .area_01
+{
+	margin-bottom:0;
+}
+#contents_create .createForm .btGroup
+{
+	text-align:right;
+}
+#contents_create .createForm .btGroup button
+{
+	margin-left:10px;
+}
+
+/* Account List */
+#contents_create .account_list li,#contents_create .account_list ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+#contents_create .account_list{
+	text-align:left;
+	list-style:none;	
+}
+#contents_create .account_list li.item{	
+	list-style:none;
+	padding:8px 10px 8px 10px;
+}
+#contents_create .account_list li.item li
+{
+	cursor:pointer;
+}
+#contents_create .account_list li.item li i
+{
+	font-size:18px;
+	margin-right:5px;
+}
+#contents_create .account_list li.item li:hover
+{
+	background:#EEE;
+}
+
+#contents_create .account_list .title{
+	font-weight:bold;
+	display:inline-block;
+	margin:5px 0 10px 0;	
+}
+#contents_create .account_choice button
+{
+	margin-bottom:5px;
+	margin-right: 4px;
+}
+#contents_create .account_choice button span
+{	
+	margin:0 10px 0 10px;
+}
+#contents_create .account_choice .btn_delete
+{
+	
+}
+#contents_create textarea
+{
+	height:106px;
+}
+#contents_create .rightBox
+{
+	margin-bottom:14px;
+}
+#contents_create #schedulePopup  .time-group label
+{
+	float:left;
+	width:50px;
+	text-align:left;
+	font-weight:bold;
+	padding-top:8px;
+	
+}
+#contents_create #schedulePopup .time-group
+{
+	border:solid 1px #E2E2E2;
+	min-height:251px;
+	padding-bottom: 10px;	
+	text-align:center;	
+}
+#contents_create #schedulePopup .time-group .wrapGroup
+{
+	padding:12px;
+}
+#contents_create #schedulePopup .bootstrap-timepicker
+{	
+	width:170px;
+	float:right;
+}
+#contents_create #schedulePopup .date_txt
+{
+	margin:10px 0 10px 0;
+	font-size:15px;	
+}
+#contents_create #schedulePopup .bootstrap-timepicker-widget input[type="text"]
+{
+	padding-right:8px !important;
+	width:40px;
+}
+
+#contents_create .modal-body {
+    overflow-y: visible;
+}
+
+
+@media only screen and (max-width:480px) {	
+	
+#contents_create .createForm{
+	padding-left:0;	
+}
+#contents_create .createForm .account {
+	width:100%;
+	position:relative;
+	margin-bottom:25px;
+}
+#contents_create .createForm .account button
+{
+	width:100%;
+	margin-bottom:0px;	
+}
+#contents_create .createForm .area_01
+{
+	margin-bottom:0;
+}
+#contents_create .createForm .btGroup
+{
+	text-align:center;
+}
+#contents_create .createForm .btGroup button
+{
+	margin-left:0;
+	width:100%;
+	margin-bottom:10px;
+}	
+}
+@media only screen and (max-width:768px)
+{
+	#contents_create #schedulePopup .time-group
+	{
+		margin-top:15px;
+	}
+}
+.category_combox{
+width: 180px;
+}
+
+#contents_create .dropdown-menu{
+	min-width: 180px;		
+}

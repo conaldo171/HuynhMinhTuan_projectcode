@@ -1,0 +1,37 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+		
+	<bean id="applicationContext"
+   		class="org.springframework.context.support.ClassPathXmlApplicationContext">
+   		<constructor-arg>
+      	<list>
+         	<value>database/Spring-Datasource.xml</value>
+         	<value>common/Spring-ConfigReader.xml</value>
+         	
+         	<value>customer/Spring-Customer.xml</value>
+         	<value>channel/Spring-ChannelDetail.xml</value>
+         	<value>content/Spring-DraftAndSchedule.xml</value>
+         	<value>content/Spring-Create.xml</value>      	
+           <value>signup/Spring-SignUp.xml</value>
+           <value>brandkeywords/Spring-BrandKeywords.xml</value>
+            <value>competitors/Spring-Competitors.xml</value>
+              <value>analysis/Spring-AnalysisReport.xml</value>
+               <value>task/Spring-Task.xml</value>
+                <value>task/Spring-CommentTask.xml</value>
+           <value>admin/Spring-Dashboard.xml</value>
+           <value>admin/Spring-Content.xml</value>  
+           <value>admin/Spring-Member.xml</value>
+           <value>admin/Spring-MemberOverview.xml</value>
+           
+         
+        
+      	</list>
+   		</constructor-arg>
+	</bean>
+		
+	<bean id="applicationContextProvider" class="com.andwise.common.ApplicationContextProvider"></bean>
+	<bean id="mailService" class="com.andwise.common.MailOperator"></bean>
+ 
+</beans>

@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<span  title=""  id="help_support"><i class="icon-info-sign"></i><span text="suport">Support</span></span>
+                <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+      <style type="text/css" media="screen, projection">
+        @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+      </style>
+      <script type="text/javascript">
+      $("#help_support").click(function(){
+  		$("#zenbox_tab").click();
+  		
+  	});
+      $("#zenbox_tab").hide();
+		  if (typeof(Zenbox) !== "undefined") {
+          Zenbox.init({
+            dropboxID:   "20099669",
+            url:         "https://enpick.zendesk.com",
+            tabTooltip:  "",
+            tabImageURL: "",
+            tabColor:    "",
+            tabPosition: ""
+          });
+		  
+		 }
+		  </script>
+</body>
+</html>

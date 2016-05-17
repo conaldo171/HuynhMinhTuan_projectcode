@@ -1,0 +1,1048 @@
+.member_member_page #aoFrm-content{
+	padding-top: 10px;	
+}
+
+#member_member .block-title .right-title{
+	padding-bottom: 10px;	
+}
+
+#member_member .block-title .right-title .box-toolbar{
+	margin:  0;	
+}
+
+#member_member .block .box-header .title i{
+	margin-right: 5px;		
+}
+
+#member_member .block .block-title{
+	padding-bottom: 10px;
+	display: block;
+	overflow: hidden;
+}
+
+#member_member .block-title .right-title .box-toolbar li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;	
+}
+
+#member_member .block-title .right-title .box-toolbar li button{
+	padding: 1px 12px;	
+}
+
+#member_member .block-title .right-title .box-toolbar li .input-prepend{
+	height:  27px!important;
+	line-height: 27px!important;
+	margin-bottom: 0;	
+}
+
+#member_member .block-title .right-title .box-toolbar li .input-prepend i{
+	font-size:  15px;
+	line-height: 17px!important;	
+}
+
+#member_member .block-title .right-title .box-toolbar li .input-prepend input,
+#member_member .block-title .right-title .box-toolbar li .input-prepend select{
+	width: 192px;
+	padding-right: 2px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	height: 27px;	
+}
+
+#member_member .block-title .right-title .box-toolbar li .input-prepend input#txt_email_name{
+	padding-left: 5px!important;
+	width: 115px!important;	
+}
+
+#member_member .box-toolbar span{
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+
+
+/******************member-overview*********/
+.block-profile table{
+		
+}
+
+.block-profile table tr{
+	
+}
+
+.block-profile table tr th,
+.block-profile table tr td{
+	text-align: center;	
+}
+
+.block-profile table tr td.left{
+	text-align: left;	
+}
+
+/********************member-monitoring**********/
+
+#member-monitoring .tab-pane{
+	padding:15px;
+}
+
+#member-monitoring .block-name{
+	cursor: pointer;
+	padding: 5px 12px 5px 12px;
+	float: left;
+	margin:5px; 	
+}
+#member-monitoring .block-name i{	
+	margin-right:5px;
+}
+#member-monitoring .block-name.active{
+	background: #888888;
+	color:#FFF;
+	box-shadow:inset 0 0 3px #333;
+	border-radius:4px;
+	text-shadow:0 0 1px #333333;
+}
+#member-monitoring .block-name.active i{
+	color:#FFF;
+	text-shadow:0 0 1px #333333;	
+}
+#member-monitoring .box-content{
+	padding: 10px;
+	display: block;
+	overflow: hidden;	
+}
+
+#member-monitoring .icon-remove{
+	cursor: pointer;
+	padding: 10px;
+	float: right;	
+}
+
+
+#member-monitoring .timeline .avatar img{
+	max-height: 50px;
+	max-width: 50px;	
+}
+
+#member-monitoring .timeline .comment .avatar img{
+	max-height: 40px;
+	max-width: 40px;	
+}
+
+#member-monitoring .timeline .avatar{
+	left: -60px;	
+}
+
+#member-monitoring .timeline .avatar i{
+	font-size:  18px;
+	position: absolute;
+	right: -5px;
+	top: 40px;		
+}
+
+
+/**********/
+
+#member-monitoring .indent{
+	margin-left: 0;
+	margin-left: 0;
+}
+
+#member-monitoring .arrow-box-left{
+	background: none;
+	position: relative;
+	box-shadow: none;	
+}
+
+#member-monitoring .arrow-box-left .content{
+	border-top: none;	
+}
+
+#member-monitoring .arrow-box-left .content blockquote{
+	clear: both;
+	border-left: none;
+	padding-left: 0;
+	border: none;
+	padding-bottom: 0;	
+}
+
+#member-monitoring .arrow-box-left .block-name{
+	 border-bottom: 1px solid #DDDDDD;
+    float: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+		
+}
+
+#member-monitoring .arrow-box-left .block-name span.name{
+	color: #3B5998;	
+}
+
+#member-monitoring .arrow-box-left .block-name span.timePost {
+    float: right;
+}
+
+#member-monitoring .arrow-box-left .info{
+	background: none;
+	position: relative;	
+	padding: 0 10px 5px;
+	padding-right: 5px;
+}
+
+#member-monitoring .icon-mail-reply {
+    bottom: 8px;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+}
+
+#member-monitoring .content_share {
+    bottom: 10px;
+    cursor: pointer;
+    float: left;
+    right: 25px;
+    padding-right: 5px;
+}
+
+#member-monitoring .menuLike {
+    bottom: 10px;
+    cursor: pointer;
+    float: left;
+    right: 25px;
+    padding-right: 5px;
+}
+
+#member-monitoring .menuFavorite {
+    bottom: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+}
+
+#member-monitoring .menuDelFb{
+	bottom: 10px;
+    cursor: pointer;
+    float: left;
+    padding-right: 10px;
+    right: 45px;	
+}
+
+#member-monitoring .menuDel {
+    bottom: 10px;
+    cursor: pointer;
+    position:  absolute;
+    padding-right: 10px;
+    right: 45px;
+}
+
+#member-monitoring .account_list li.item {
+    list-style: none outside none;
+    padding: 8px 10px 8px 15px;
+}
+
+
+#member-monitoring .block-comment{
+	background: #edeff4;	
+}
+
+
+#member-monitoring .guest-comment{
+	position: relative;
+	padding: 5px 10px;
+	border: 1px solid #FFF;	
+}
+
+#member-monitoring .guest-comment .info{
+	padding: 0;	
+}
+
+#member-monitoring .post_comment .arrow-box-left{
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+
+#member-monitoring .guest-comment blockquote{
+	margin: 0;
+	border-left: 0;
+	padding-left: 0;	
+}
+
+#member-monitoring .guest-comment blockquote .indent{
+	margin: 0;	
+}
+
+#member-monitoring .guest-comment .delComment{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;	
+}
+
+#member-monitoring .guest-comment .likeComment{
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	cursor: pointer;	
+}
+
+#member-monitoring .guest-comment .content{
+	padding: 0!important;
+	border: none;	
+}
+
+#member-monitoring .guest-comment .content blockqquote{
+	margin: 0!important;	
+}
+
+#member-monitoring .guest-comment .arrow-box-left{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 50px;	
+}
+
+#member-monitoring .guest-comment .arrow-box-left:after, 
+#member-monitoring .guest-comment .arrow-box-left:before{
+	border: none;
+}
+	
+#member-monitoring .guest-comment .avatar{
+	left: 10px;
+	top: 5px;	
+}
+
+#member-monitoring .post_comment{
+	position: relative;	
+}
+
+#member-monitoring .post_comment .arrow-box-left:after, 
+#member-monitoring .post_comment .arrow-box-left:before{
+	border: none;	
+}
+
+#member-monitoring .post_comment .avatar{
+	left: 10px;	
+}
+
+#member-monitoring .post_comment .arrow-box-left{
+	border: none;
+	margin-left: 50px;	
+}
+
+#member-monitoring .post_comment .arrow-box-left .block-content input,
+#member-monitoring .post_comment .arrow-box-left #txtComment{
+	width: 99%;
+	min-height: 29px;
+	margin-bottom: 0;	
+}
+#member-monitoring .facebook_menu_left{
+	display: none;
+ }
+ 
+ #member-monitoring .facebook_menu_left .span2{
+ 	width: 200px;
+ 	border: 1px solid #CCCCCC;
+ 	padding: 10px;
+ }
+ 
+ #member-monitoring #content-fb{
+ 	
+ }
+ 
+ #member-monitoring .facebook_menu_left ul{
+ 	margin-left: 0;
+ }
+ 
+  #member-monitoring .facebook_menu_left ul #list-friends{
+  	height: 350px;
+  }
+ 
+ #member-monitoring .facebook_menu_left #title_facebook span,
+ #member-monitoring .facebook_menu_left #title_facebook_page span{
+ 	font-weight: 600;
+ 	color: #3B5998;
+ } 
+#member-monitoring .postBox{
+float:right;
+width:100%;
+}
+
+#member-monitoring .facebook_menu_left li {
+    border-top: 1px solid #CCCCCC;
+    list-style-type: none;
+    padding: 7px;
+}
+
+#member-monitoring .facebook_menu_left li a:hover,
+#member-monitoring .facebook_menu_left li.active a{
+	color: #3B5998;
+}
+
+#member-monitoring .loading-small{
+	background: url(../../../common/images/loading_small.gif) no-repeat center center;
+	min-height: 16px;
+	border: none;	
+}
+
+ #member-monitoring .facebook_menu_left .txt-search{
+ 	margin-top: 0;
+ 	margin-bottom: 10px;
+ 	width: 104%;
+ }
+ 
+  #member-monitoring .facebook_menu_left .txt-search input{
+  	width: 85%;
+  }
+  
+  #member-monitoring #me_feed img{
+  	margin-right: 10px;
+  	 -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3);
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3)
+  }
+  
+  #member-monitoring #me_feed .fbName{
+  	color: #3B5998;
+  	font-weight: 600;
+  }
+  
+  #member-monitoring #newsfeed_facebook a:hover,
+  #member-monitoring #newsfeed_facebook a.active{
+  		color: #3B5998;
+  		font-weight: 600;
+  }
+  
+  #monitoring-facebook .block-actions{
+  	float: right;
+  }
+  
+  #member-monitoring .block-actions i{
+  	margin-right: 5px;
+  	color: #3B5998;
+  }
+  
+  #member-monitoring .block-actions span{
+  	margin-right: 5px;
+  }
+  
+  #member-monitoring .block-actions span.engagement-num{
+  	margin-right: 0;
+  }
+  
+  #monitoring_facebook .block-actions {
+    float: right;
+}
+
+#member-monitoring-facebook .block-actions{
+	float: right;	
+}
+
+#member-monitoring-twitter .block-content-top{
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom:  5px;
+}
+
+#member-monitoring-twitter .block-content-top .indent{
+	color: #24AEEB;	
+}
+
+#member-monitoring-twitter .block-content-top .timePost{
+	float: right;	
+}
+
+#member-monitoring-twitter .block-actions{
+	padding: 0 10px;	
+}
+
+#member-monitoring-twitter .block-actions i{
+	color: #24AEEB;	
+}
+
+/***********jScroll*************/
+
+
+.jspContainer
+{
+        overflow: hidden;
+        position: relative;
+        
+}
+
+.jspPane
+{
+        position: absolute;
+}
+
+.jspVerticalBar
+{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 16px;
+        height: 100%;
+        background: red;
+}
+
+.jspHorizontalBar
+{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 16px;
+        background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+        margin: 0;
+        padding: 0;
+}
+
+.jspCap
+{
+        display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+        float: left;
+}
+
+.jspTrack
+{
+        background: #dde;
+        position: relative;
+}
+
+.jspDrag
+{
+        background: #bbd;
+        position: relative;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+        float: left;
+        height: 100%;
+}
+
+.jspArrow
+{
+        background: #50506d;
+        text-indent: -20000px;
+        display: block;
+        cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+        cursor: default;
+        background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+        height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+        width: 16px;
+        float: left;
+        height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+        outline: none;
+}
+
+.jspCorner
+{
+        background: #eeeef4;
+        float: left;
+        height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+        margin: 0 -3px 0 0;
+}
+
+
+.content-area,
+.content-area-page{
+ height:300px;
+ margin-bottom: 20px;
+ width: 190px!important;
+}
+.jspVerticalBar {
+ width: 10px;
+ background: transparent;
+ right:0px;
+}
+ 
+.jspHorizontalBar {
+ bottom: 5px;
+ width: 100%;
+ height: 8px;
+ background: transparent;
+}
+.jspTrack {
+ background: transparent;
+ width: 10px;
+}
+.jspTrackHover {
+ background-color: rgba(0, 0, 0, .15);
+ -webkit-border-radius: 8px;
+}
+.jspDrag {
+        background-color: #AAA;
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px;
+ border-radius:4px;
+ -webkit-transition: width 250ms;
+ width: 5px;
+}
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar  {
+ float: left;
+ height: 100%;
+}
+.jspDrag {
+ float: right;
+}
+.jspCorner {
+ display:none
+}
+
+.tab-pane .block-channel{
+		
+}
+
+.tab-pane .block-channel {
+	display: block;
+	margin: 0 0 10px 0;
+	overflow: hidden;	
+}
+
+.tab-pane .block-channel li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+		
+}
+
+.tab-pane .block-channel li a{
+	font-size:  15px;	
+}
+
+.tab-pane .block-channel li a.active{
+	font-weight: bold;	
+}
+
+
+#monitoring_twitter .arrow-box-left .info {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 0 !important;
+    position: relative;
+}
+
+#monitoring_twitter .menuDelFb, #monitoring_twitter .menuDel {
+    cursor: pointer;
+}
+
+
+#monitoring_twitter .menuDelFb, #monitoring_twitter .menuDel {
+    bottom: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+}
+
+#monitoring_twitter .block-actions {
+    padding: 0 10px;
+    float: none;
+}
+
+#monitoring_twitter .block-actions i {
+    color: #24AEEB;
+    padding-right: 5px;
+}
+
+#monitoring_twitter .block-actions span {
+    padding-right: 5px;
+}
+
+#monitoring_twitter .block-actions i{
+  	margin-right: 5px;
+  	color: #24AEEB;
+  }
+  
+  
+  /*********************analysis****************/
+  
+  #analysis_facebook{
+	
+}
+#analysis_facebook .menu-left h5{
+	margin-top: 0;	
+}
+#analysis_facebook .block-demographic{
+	text-align:center;
+}
+#analysis_facebook .block-demographic .chartBox h5{
+	position:absolute;
+	background:#FBFBFB;
+	bottom:-10px;
+	left:0;
+	padding:0 0 15px 0;
+	width:100%;
+	text-align:center;	
+	font-size:16px;
+}
+#analysis_facebook .block-demographic .chartBox{
+	position:relative;	
+}
+#analysis_facebook .block-demographic .chartBox p{	
+	position:absolute;
+	top:38%;
+	width:100%;	
+	left:0;
+	text-align:center;
+}
+#analysis_facebook .block-demographic .chartBox i{
+	font-size:60px !important;		
+}
+
+@media only screen and (max-width:767px)
+{
+	#analysis_facebook .block-demographic .chartBox{
+		border-bottom:dotted 1px #EBEBEB;
+	}
+	#analysis_facebook .block-demographic .chartBox:last-child{
+		border-bottom:none;
+	}
+	#analysis_facebook .block-demographic .chartBox p{			
+		top:38%;		
+	}
+	#analysis_facebook .block-demographic .chartBox i{
+		font-size:60px;		
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1300px)
+{
+	#analysis_facebook .block-demographic .chartBox p{			
+		top:34%;		
+	}
+	#analysis_facebook .block-demographic .chartBox i{
+		font-size:50px;		
+	}
+}
+#analysis_facebook .itemLoading{
+	position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;		
+}
+
+#analysis_facebook .block-title{
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 10px;	
+}
+
+#analysis_facebook .block-title .left-title{
+	float: left;
+	font-size: 15px;	
+}
+
+#analysis_facebook .block-title .left-title span{
+	margin-left: 5px;	
+}
+
+#analysis_facebook .block-title .right-title{
+	float: right;	
+}
+
+#analysis_facebook .block-title .right-title .box-toolbar{
+	margin:  0;	
+}
+
+#analysis_facebook .block .box-header .title i{
+	color: #3B5998;
+	margin-right: 5px;		
+}
+
+#analysis_facebook .block .block-title{
+	padding-bottom: 10px;
+}
+
+#analysis_facebook .block-title .right-title .box-toolbar li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;	
+}
+
+#analysis_facebook .block-title .right-title .box-toolbar li button{
+	padding: 1px 12px;	
+}
+
+#analysis_facebook .block-title .right-title .box-toolbar li .input-prepend{
+	height:  27px!important;
+	line-height: 27px!important;
+	margin-bottom: 0;	
+}
+
+#analysis_facebook .block-title .right-title .box-toolbar li .input-prepend i{
+	font-size:  15px;
+	line-height: 17px!important;	
+}
+
+#analysis_facebook .block-title .right-title .box-toolbar li .input-prepend input{
+	min-width: 200px;
+	padding-right: 2px;	
+}
+
+
+#analysis_facebook .menu-left ul {
+    margin-left: 0;
+}
+
+#analysis_facebook .menu-left li {
+    border-top: 1px solid #CCCCCC;
+    list-style-type: none;
+    padding: 7px;
+}
+
+
+#analysis_facebook .action-nav-normal .action-nav-button a:hover, #analysis_facebook .action-nav-normal .action-nav-button a.active {
+    background: none repeat scroll 0 0 #3B5998;
+    color: #FFFFFF;
+}
+
+#analysis_facebook .action-nav-normal .action-nav-button a:hover i, #analysis_facebook .action-nav-normal .action-nav-button a.active i {
+    color: #FFFFFF;
+}
+
+#analysis_facebook .content_right {
+    float: right;
+    margin-right: 4px;
+    position: relative;
+    width: 77%;
+}
+
+
+#analysis_facebook .menu-left li a:hover, #analysis_facebook .menu-left li.active a {
+    color: #3B5998;
+}
+
+#analysis_facebook .dashboard-stats .count .green {
+    color: #4DA944;
+}
+
+#analysis_facebook .dashboard-stats .count .red {
+    color: #AA433A;
+}
+
+
+
+/******twitter**********/
+
+
+#analysis_twitter .menu-left ul {
+    margin-left: 0;
+}
+
+#analysis_twitter .menu-left li {
+    border-top: 1px solid #CCCCCC;
+    list-style-type: none;
+    padding: 7px;
+}
+
+
+#analysis_twitter .menu-left li a:hover, #analysis_twitter .menu-left li.active a {
+    color: #24AEEB;
+}
+
+
+#analysis_twitter .block-title {
+    clear: both;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#analysis_twitter .block-title .left-title {
+    float: left;
+    font-size: 15px;
+}
+
+#aoFrm-content .icon-twitter-sign.blue {
+    color: #24AEEB;
+}
+
+#analysis_twitter .block-title .left-title {
+    font-size: 15px;
+}
+
+
+#analysis_twitter .block-title .right-title {
+    float: right;
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar {
+    margin: 0;
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar li {
+    display: inline-block;
+    list-style: none outside none;
+    margin-left: 10px;
+}
+
+#analysis_twitter .action-nav-normal .action-nav-button a:hover, #analysis_twitter .action-nav-normal .action-nav-button a.active {
+    background: none repeat scroll 0 0 #24AEEB;
+    color: #FFFFFF;
+}
+
+#analysis_twitter .action-nav-normal .action-nav-button a:hover i, #analysis_twitter .action-nav-normal .action-nav-button a.active i {
+    color: #FFFFFF;
+}
+
+#analysis_twitter .block-title .right-title .box-toolbar li .input-prepend {
+    height: 27px !important;
+    line-height: 27px !important;
+    margin-bottom: 0;
+}
+
+
+#contents_title, #summary_title {
+    text-transform: capitalize;
+}
+
+
+#contents_title_fb, #summary_title_fb {
+    text-transform: capitalize;
+}
+
+#analysis_twitter .itemLoading {
+    background-position: center 0;
+    height: 90%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+#account tbody td.grey{
+	background: #eaeaea;
+	border-bottom: 1px solid #d1d2da;
+	border-left: 1px solid #d1d2da;
+	border-right: 1px solid #d1d2da;
+	font-weight: bold;
+}
+
+.block-channel li a{
+	background-color: #00438D;
+	color: #ffffff;
+	border-radius:4px;
+	padding: 5px 10px;
+	display: block;
+	background-image: -moz-linear-gradient(top, #006AAC, #00438D);
+	background-image: -ms-linear-gradient(top, #006AAC, #00438D);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#006AAC), to(#00438D));
+	background-image: -webkit-linear-gradient(top, #006AAC, #00438D);
+	background-image: -o-linear-gradient(top, #006AAC, #00438D);
+	background-image: linear-gradient(top, #006AAC, #00438D);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#'006AAC, endColorstr='#'00438D, GradientType=0);
+	border-color: #305F9C #305F9C #002A80;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);	
+}
+
+.content_right{
+	position: relative;	
+}
+
+.no-channel{
+	padding: 10px;
+	color: #FFF;
+	background: #000;
+	position: absolute;
+	top: 40px;
+	left: 30%;
+	opacity: 0.7;
+  	filter:alpha(opacity=60); /* For IE8 and earlier */		
+}
+
+.no-channel h5{
+	color: #FFF;	
+}
+
+/***********daterange**********/
+
+.member_member_page .daterangepicker{
+	z-index: 9999!important;
+}
+
+#popup-edit-member .modal-body{
+	overflow-y: inherit;	
+}
+
+#popup-edit-member .modal-footer{
+		
+}
+
+#popup-edit-member{
+		
+}
+
+#popup-edit-member .input-prepend{
+	width: 49%;	
+}
+
+#popup-edit-member .input-prepend select{
+	width: 100%;
+	height: 36px;	
+}
+
+#popup-edit-member .block-calendar{
+	width: 50%;
+	float: left;
+	position: relative;	
+}
+
+#popup-edit-member .block-calendar .input-prepend{
+	width: 97%;	
+	position: relative;
+}
+
+#popup-edit-member .block-calendar .hasDatepick{
+	position: absolute;
+	width: 100%;	
+}
+
+#popup-edit-member .block-calendar select{
+	height: auto;	
+}
+
+#popup-edit-member .datepick{
+	font-size: 12px;	
+}

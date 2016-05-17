@@ -1,0 +1,26 @@
+﻿// contents /draft 
+[{
+	__all:"全体",
+	__profiles:"プロフィール",
+	__draft:"一時保存",
+	__scheduled:"予約発行",
+	__send:"発行完了",
+	__review:"Review for approval",
+	__discard:"Discard",
+	__save:"保存",
+	__add	:"Add",
+	__attach:"Attach",
+	__save_to_draft:"Save to Draft",
+	__attach	:"Attach", 
+	__remove	:"Remove", 
+	__time: "Time",
+	__message_send:"Message will be sent at",
+	__on	:"on", 
+	__date_not_choose:"Date(s) not chosen",
+	__discard:"捨てる",
+	__review	:"Review for approval", 
+	__edit_scheduled:"Edit scheduled message",
+	__team_member	:"チームメンバー",
+	__nodata:"No Data",
+	__pleasewritter:"Please write a message."
+}]

@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="cftable" class="com.andwise.common.ConfigTable">
+	<property name="dataSource" ref="dataSource"/>
+	</bean>
+
+<!-- I need this bean to be injected with foo so that the FooFactory can return a foo -->
+<bean class="com.andwise.common.ConfigFactoryProcessor">
+
+<property name="cftable" ref="cftable"/>
+</bean>
+</beans>

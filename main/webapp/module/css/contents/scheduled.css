@@ -1,0 +1,205 @@
+/* 
+contents/scheduled
+main id : #contents_scheduled
+*/
+
+#contents_scheduled{
+	
+}
+#contents_scheduled{
+	
+}
+#contents_scheduled .account_choice button {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#contents_scheduled .account_choice button span {
+    margin: 0 5px;
+}
+#contents_scheduled .timeline .avatar
+{
+	left:-60px;
+}
+#contents_scheduled .timeline .avatar i{
+	position:absolute;
+	top:40px;
+	right:-5px;
+	font-size:18px;
+}
+#contents_scheduled .timeline .avatar span.label
+{
+	display:block;
+	text-align:center;	
+	width:805;
+	margin:auto;
+	margin-top:10px;
+	font-size:11px;
+}
+#contents_scheduled .timeline .avatar img
+{
+	max-height:50px;
+	max-width:50px;		
+}
+.contents_scheduled_page #aoFrm-content-top #contentTop_contentsList 
+{
+	display:block;	
+}
+
+@media only screen and (max-width:480px) {	
+	
+	#contents_scheduled .timeline .avatar
+	{
+		left:10px;
+	}
+	#contents_scheduled .chat-box.timeline .arrow-box-left .name {
+    	float: left;
+    	margin-left: 67px;
+	}
+}
+@media only screen and (max-width:12010px)
+{
+	.contents_scheduled_page #aoFrm-content-top #contentTop_contentsList 
+	{		
+		margin-right:auto;
+	}	
+}
+@media only screen and (max-width:767px)
+{
+	.contents_scheduled #aoFrm-content-top #contentTop_contentsList 
+	{		
+		float:none;
+		display:inline-block;
+	}	
+}
+
+#contents_scheduled .arrow-box-left .content{
+	position: relative;		
+}
+
+#contents_scheduled .edit{
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;	
+}
+
+#contents_scheduled .delete{
+	cursor: pointer;
+	position: absolute;
+	right: 35px;
+	bottom: 11px;	
+}
+
+
+#contents_scheduled .createForm .account {
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+}
+
+#contents_scheduled .createForm .account .imgBox .channel-icon {
+    bottom: 0;
+    color: #3B5998;
+    position: absolute;
+    right: 3px;
+}
+
+
+#contents_scheduled .createForm .account .imgBox {
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    padding: 4px 0;
+}
+
+#contents_scheduled .createForm{
+	padding-left: 110px;	
+}
+
+#contents_scheduled .createForm .area_01{
+	margin-bottom: 0;	
+}
+
+#contents_scheduled .time-group {
+    border: 1px solid #E2E2E2;
+    min-height: 251px;
+    text-align: center;
+    padding-bottom:10px;
+}
+
+#contents_scheduled .time-group .wrapGroup {
+    padding: 15px;
+}
+
+#contents_scheduled .date_txt {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+
+#contents_scheduled .account_list {
+    list-style: none outside none;
+    text-align: left;
+}
+
+#contents_scheduled .account_list li.item {
+    list-style: none outside none;
+    padding: 8px 10px 8px 15px;
+}
+
+#contents_scheduled .account_list .title {
+    display: inline-block;
+    font-weight: bold;
+    margin: 5px 0 10px;
+}
+
+#contents_scheduled .account_list li, #contents_scheduled .account_list ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#contents_scheduled .account_list li.item li {
+    cursor: pointer;
+}
+
+#contents_scheduled .modal-body{
+	overflow-y: visible;	
+}
+
+#contents_scheduled .body-scheduled.open-scheduled{
+	display: block;
+}
+
+#contents_scheduled .body-scheduled.close-scheduled{
+	display: none;
+}
+
+#contents_scheduled .dropdown-menu{
+	min-width: 180px;		
+}
+
+#contents_scheduled .nodata {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    opacity: 0.7;
+    float: none!important;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#contents_scheduled .nodata h4 {
+    color: #FFFFFF;
+}
+
+#contents_scheduled .arrow-box-left {
+    background: none repeat scroll 0 0 #FFF;
+    box-shadow: none;
+    position: relative;
+}
+#contents_scheduled .arrow-box-left .content {
+    border-top: medium none;
+}
